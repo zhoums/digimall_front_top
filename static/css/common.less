@@ -208,12 +208,12 @@ body
 /*Header begin*/
 .top
 {
-    height: 80px;
+    height: 40px;
+    box-sizing: border-box;
     padding: 0 20px 0 0;
-
-    color: #fff;
+    color: #000;
     border-bottom: 1px solid #ccc;
-    background: #4f84b1 url('/static/img/head_bg.png') repeat-x;
+    background: #f2f2f2;
     .Container
     {
         overflow: visible;
@@ -246,15 +246,13 @@ body
             .proCate
             {
                 display: inline-block;
-
-                padding: 25px 15px 25px 30px;
-
-                color: #fff;
-                background: url('/static/img/icon_arrow.png') no-repeat right 27px;
+                padding: 5px 15px 5px 30px;
+                color: #000;
+                background: url('/static/img/icon_arrow.png') no-repeat right 9px;
             }
             .categoryIcon
             {
-                background: url('/static/img/icon_sprite.png') 0 6px no-repeat;
+                background: url('/static/img/icon_sprite_0.png') 0 6px no-repeat;
             }
         }
         .searchIcon
@@ -320,10 +318,9 @@ body
         .item
         {
             float: left;
-
             height: 30px;
             margin-left: 0;
-            padding: 25px 0;
+            padding: 5px 0;
         }
         .item a
         {
@@ -340,7 +337,7 @@ body
             height: 16px;
             padding: 7px 15px;
 
-            color: #fff;
+            color: #000;
             background: url('/static/img/icon_arrow.png') no-repeat right 1px;
         }
         .item ul
@@ -367,18 +364,15 @@ body
     .topLogin
     {
         line-height: 30px;
-
         float: left;
-
         margin-left: 20px;
-        padding: 25px 30px 25px 0;
-
-        background: url('/static/img/icon_user.png') no-repeat right 28px;
+        padding: 5px 30px 5px 0;
+        //background: url('/static/img/icon_user.png') no-repeat right 28px;
         a
         {
             margin: 0 2px;
 
-            color: #fff;
+            color: #000;
             &:hover
             {
                 color: #fff;
@@ -389,42 +383,44 @@ body
     {
         font-size: 14px;
         line-height: 30px;
-
+        box-sizing: border-box;
         float: left;
-
-        width: 95px;
         margin-left: 15px;
-        padding: 25px 10px;
+        padding: 5px 10px;
+        position: relative;
         // text-align: center;
         // background: #999999;
         .shop_cart
         {
             margin-right: 5px;
-            padding: 4px 8px;
-
+            padding: 2px 5px;
+            height:16px;
+            min-width: 24px;
             color: #fff;
-            border: 2px solid #fff;
-            border-radius: 5px;
+            border: none;
+            border-radius: 45%;
+            background: #ff5647;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 16px;
         }
         i
         {
             display: inline-block;
-
             width: 27px;
             height: 23px;
-
             vertical-align: middle;
-
-            background: url('/static/img/icon_sprite.png') no-repeat 0 -90px;
+            background: url('/static/img/icon_sprite_0.png') no-repeat 0 -26px;
         }
     }
 }
 .cart
 {
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    top: 80px;
-    right: 20px;
+    top: 40px;
+    left: 240px;
 
     display: none;
     .item
@@ -631,23 +627,17 @@ body
 }
 #header
 {
-    line-height: 28px;
-
     position: relative;
-
     width: @pageWidth;
-    height: 28px;
     margin: auto;
     padding: 10px 0;
-
     text-align: right;
     .nav
     {
         .navTab
         {
             font-size: 14px;
-            font-weight: bold;
-
+            font-weight: 600;
             margin-left: 20px;
 
             color: @subFontColor;
