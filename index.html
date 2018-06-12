@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+<link type="image/x-icon" rel="shortcut icon"   href="/static/img/favicon.ico" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" type="text/css" href="static/css/common.css">
+<link rel="stylesheet" type="text/css" href="static/css/index.css">
+</head>
+<body>
+    <div id="site-nav">
+        <div class="top">
+            <div class="topLeft">
+                <div class="categoryWrapper">
+                    <a class="proCate" href="javascript:;"><i class="categoryIcon"></i>Categories</a>
+                    <div class="categoryContainer">
+                        <ul class="categoryList"></ul>
+                    </div>
+                </div>
+                <div class="topMenu">
+                    <div class="item">
+                        <a href="javascript:void(0)" class="Link"><i class="searchIcon"></i><span class="searchType">Products</span></a>
+                        <ul style="display: none;">
+                            <li><a href="javascript:void(0)" class="sele tabSearch" v="Products">Products</a></li>
+                            <li><a href="javascript:void(0)" class="tabSearch" v="DataSheet">Datasheet</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <input type="text" id="searchInput" name="part" class="searchInput" placeholder="Search..."></input>
+            </div>
+            <div class="topMiddle">
+                <a href="/index.html"><img src="/static/img/logo.png"/></a>
+            </div>
+            <div class="topRight">
+                <div class="topMenu">
+                    <div class="item">
+                        <a href="javascript:void(0)" link="/member/index.html" class="Link needLogin">My Account</a>
+                        <ul style="display: none;">
+                            <li><a href="javascript:void(0)" link="/account/index.html" class="needLogin">Account Information</a></li>
+                            <li><a href="javascript:void(0)" link="/account/address.html" class="needLogin">Shipping Address</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <a href="javascript:void(0)" link="/order/index.html" class="Link needLogin">My Orders</a>
+                        <ul style="display: none;">
+                            <li><a href="javascript:void(0)" link="/order/index.html" class="needLogin">My Orders</a></li>
+                            <li><a href="javascript:void(0)" link="/quote/index.html" class="needLogin">My Inquiry</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topLogin">
+                    <a href="/member/login.html" target="_blank" id="aLogin">Sign in</a> /
+                    <a href="/member/register.html" target="_blank">Register</a>
+                </div>
+                <div class="topCart">
+                    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
+                        Cart
+                        <span>0</span>
+                    </a>
+                    <i></i>
+                    <div class="cart">
+                        <ul class="item" id="ShoppingCart">
+                            <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Clear"></div>
+        </div>
+        <div id="header">
+            <div class="nav">
+                <a class="navTab highlight" href="/index.html">Home</a>
+                <a class="navTab" href="/product/index.html">Product Index</a>
+                <a class="navTab" href="/brand/index.html">Brand Index</a>
+                <a class="navTab" href="/datasheet/index.html">DataSheet</a>
+                <a class="navTab" href="/article/about.html?tpl=about_us">About US</a>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper" class="container">
+        <div class="fullSlide bannerWrapper">
+            <div class="bd">
+                <ul class="bannerContainer">
+                    <img src="/static/img/loading.gif"/>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+        </div>
+        <div id="main">
+            <div class="quickInquiryCont">
+                <span>Talk to Us :</span>
+                <div class="contactCont">
+                    <a href="skype: Along@icsugo.com?call" class="skype" id="skype" title="skpe"></a>
+                    <a href="http://wwp.icq.com/scripts/contact.dll?msgto=724251238" class="oicq" id="oicq" title="oicq" target="_blank"></a>
+                    <a href="mailto:info@icsugo.com" class="email" id="email" title="email"></a>
+                    <a href="javascript:;" class="kefu" id="kefu" title=""></a>
+                </div>
+                <a href="javascript:;" class="quickInquiryBtn quickInquiry"><i class="iconQuickInquiry"></i>Quick Inquiry</a>
+            </div>
+            <div class="pageWidth blockContainer">
+                <!--<div class="categoryWrapper">
+                    <h2> - Categories - </h2>
+                    <div class="categoryContainer">
+                        <ul class="categoryList"></ul>
+                    </div>
+                </div>-->
+
+                <div class="hotProductWrapper">
+                    <h2>  Product Today  </h2>
+                    <ul class="hotProductViews"></ul>
+                </div>
+            </div>
+            <div class="products pageWidth">
+                <div class="recommand_products_outer">
+                    <h2>  RECOMMAND PRODUCTS  </h2>
+                    <ul id="tabHead" class="productsChoose"></ul>
+                </div>
+                <div id="tabHeadPanel"></div>
+            </div>
+            <div class="brandOverview">
+                <div class="pageWidth">
+                    <div class="specialProduct">
+                        <h2 style="text-align: left">SPECIAL PRODUCTS  </h2>
+                        <div class="specialProductContainer">
+                            <div class="specialProductContainer1"></div>
+                            <!--<div class="specialProductContainer2"></div>-->
+                        </div>
+                    </div>
+                    <div class="newsWrapper">
+                        <h2>  News  </h2>
+                        <ul class="newsList"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="brandOverview" style="background-color: #fff">
+                <h2 class="pageWidth"> - GLOBAL BRANDS - </span>
+                    <a class="textLink" href="/brand/index.html">View More...</a>
+                </h2>
+                <div class="brandSlide pageWidth">
+                    <div class="hds"><ul></ul></div>
+                    <div class="bds">
+                        <ul class="brandList pageWidth"></ul>
+                    </div>
+                    <a class="prev" href="javascript:void(0)"></a>
+                    <a class="next" href="javascript:void(0)"></a>
+                </div>
+
+            </div>
+            <div class="policyViews">
+                <h2 class="pageWidth"> - BUYER PROTECTION POLICY - </h2>
+                <ul class="policyList pageWidth">
+                    <li>
+                        <img src="/static/img/policy/policy0.png" />
+                        <p class="policyTitle">Find Products</p>
+                        <p class="description">Find Products, Inquiry, Receive, Check</p>
+                    </li>
+                    <li>
+                        <img src="/static/img/policy/policy1.png" />
+                        <p class="policyTitle">Fast Delivery</p>
+                        <p class="description">Over 100,000 products in stock</p>
+                    </li>
+                    <li>
+                        <img src="/static/img/policy/policy2.png" />
+                        <p class="policyTitle">Purchasing Agent</p>
+                        <p class="description">Centralized Delivery,  Unified Payment</p>
+                    </li>
+                    <li>
+                        <img src="/static/img/policy/policy3.png" />
+                        <p class="policyTitle">Excess Inventory</p>
+                        <p class="description">Provide Recycling, Consignment Service</p>
+                    </li>
+                    <li>
+                        <img src="/static/img/policy/policy4.png" />
+                        <p class="policyTitle">Quality Assurance</p>
+                        <p class="description">All products are 100% guaranteed New & Original</p>
+                    </li>
+                    <li style="margin-right: 0;">
+                        <img src="/static/img/policy/policy5.png" />
+                        <p class="policyTitle">BOM</p>
+                        <p class="description">One-stop Purchasing<br/> Solution</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script src="static/js/vendor/require/require.js"></script>
+    <script src="static/js/config.js?t=3"></script>
+    <script>
+        require([ 'main/index' ], function(page) {
+            page.init();
+        });
+    </script>
+</body>
+<!-- <script src="static/js/ga.js"></script> -->
+</html>

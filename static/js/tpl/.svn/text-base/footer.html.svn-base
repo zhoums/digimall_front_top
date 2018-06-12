@@ -1,0 +1,73 @@
+<div class="pageWidth">
+    <a href="/index.html"><img class="footLogo" src="/static/img/logo_foot.png"></a>
+    <div class="footContent">
+        <div class="supportCont">
+            <div class="support">
+                <dl class="buyGuide">
+                    <dt>BUYER'S GUIDE</dt>
+                    <dd><a href="/article/about.html?tpl=instruction">Return/Replace Instruction</a></dd>
+                    <dd><a href="/article/about.html?tpl=purchasing_procedure">Purchasing Procedure</a></dd>
+                    <dd><a href="/article/about.html?tpl=about_search">About Search</a></dd>
+                </dl>
+                <dl class="delivery">
+                    <dt>LEAD TIME</dt>
+                    <dd><a href="/article/about.html?tpl=freight_statement" target="_blank">Freight Statement</a></dd>
+                    <dd><a href="/article/about.html?tpl=delivery_time">Delivery Time</a></dd>
+                    <!-- <dd><a href="/article/about.html?tpl=delivery_term">Delivery Term</a></dd> -->
+                </dl>
+                <dl class="myAccount">
+                    <dt>MY ACCOUNT</dt>
+                    <dd><a href="javascript:void(0)" link="/order/index.html" class="needLogin">My Order</a></dd>
+                    <dd><a href="javascript:void(0)" link="/account/address.html" class="needLogin">Receiving address</a></dd>
+                </dl>
+                <dl class="aboutUs">
+                    <dt>ABOUT US</dt>
+                    <!-- <dd><a href="/article/about.html?tpl=terms_of_use">Terms of Use</a></dd> -->
+                    <dd><a href="/article/about.html?id=contact_us">Contact Us</a></dd>
+                    <dd><a href="/article/about.html?tpl=about_us">About Us</a></dd>
+                </dl>
+                <dl class="followUsContainer">
+                    <dt>FOLLOW US:</dt>
+                    <dd class="applicationContainer">
+                        <!-- <img src="/static/img/icon_application.png" /> -->
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=www.icsugo.com" target="_blank" class="facebook" id="facebook" title="facebook"></a>
+                        <a href="http://twitter.com/home?status=www.icsugo.com" target="_blank" class="twitter" id="twitter" title="twitter"></a>
+                        <a href="https://plus.google.com/share?url=www.icsugo.com" target="_blank" class="google" id="google" title="google+"></a>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=www.icsugo.com" target="_blank" class="linkin" id="linkin" title="linkin"></a>
+                        <a href="skype: Along@icsugo.com?call" class="skpe"  id="footer_skype" title="skpe"></a>
+                    </dd>
+                </dl>
+                <div class="Clear"></div>
+            </div>
+        </div>
+        <div class="picContact">
+            <a href="/index.html"><img src="/static/img/icon_foot.png" /></a>
+        </div>
+        <div class="copyright">
+            Copyright [版权符号] 2016  29B A Building 100. Duhui. Zhonghang Road.Futian District.Shenzhen, P.R.China </br>
+            Tel:+86-755-82550609 E-mail:info@icsugo.com 
+        </div>
+    </div>
+</div>
+<!-- <div class="cart">
+    <ul class="item" id="ShoppingCart">
+        <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
+    </ul>
+</div>
+<div class="floatWrapper">
+    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
+        <i></i>
+        <span>0</span>
+    </a>
+    <a href="javascript:;" class="kefu">
+        <i></i>
+    </a>
+    <div class="applictionContainer">
+        <a href="skype:rixin-sales?call" class="skpe" title="skpe"></a>
+        <a href="http://wwp.icq.com/scripts/contact.dll?msgto=411145102" class="oicq" title="oicq" target="_blank"></a>
+        <a href="mailto:sales@rxicsource.com" class="email" title="email"></a>
+    </div>
+    <a href="javascript:;" class="displayBtn">
+        <i class="arrowIcon up"></i>
+    </a>
+</div> -->

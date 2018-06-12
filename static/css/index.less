@@ -1,0 +1,619 @@
+@mainColor: #00aeef;
+@pageWidth: 1200px;
+@borderColor: #e6e6e6;
+@emphasesColor: #d73c38;
+@subFontColor: #555;
+h2
+{
+    margin: auto;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+
+    height: 44px;
+    padding: 5px 0;
+
+    color: #aaa;
+}
+#main{
+    position: relative;
+    width: auto;
+    margin: auto;
+}
+#site-nav
+{
+    margin: 0;
+}
+#header
+{
+    text-align: center;
+}
+.bannerWrapper
+{
+    // overflow: hidden;
+
+    height: 420px;
+
+    text-align: center;
+}
+*
+{
+    zoom: 1;
+}
+.fullSlide
+{
+    position: relative;
+    // background:#000; 
+
+    margin: 0 auto;
+    .bd
+    {
+        position: relative;
+        z-index: 0;
+    }
+    .bd li
+    {
+        text-align: center;
+    }
+    .bd li img
+    {
+        max-width: 100%;
+        max-height: 300px;
+
+        vertical-align: top;
+    }
+    .hd
+    {
+        line-height: 30px;
+
+        position: absolute;
+        z-index: 1;
+        bottom: -20px;
+        left: 50%;
+
+        width: 480px;
+        height: 30px;
+        margin-left: -600px;
+
+        // text-align: center;
+    }
+    .hd ul
+    {
+        padding-top: 5px;
+
+        text-align: left;
+    }
+    .hd ul li
+    {
+        font-size: 0;
+
+        display: inline-block;
+        overflow: hidden;
+        zoom: 1;
+
+        width: 110px;
+        height: 4px;
+        margin: 5px;
+
+        cursor: pointer;
+
+        // border-radius: 4px;
+        background: #ccc;
+
+        *display: inline;
+    }
+    .hd ul .on
+    {
+        background: @mainColor;
+    }
+}
+.quickInquiryCont{
+    position: absolute;
+    top: -80px;
+    left:50%;
+    margin-left: -80px;
+    width: 680px;
+    height: 70px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #aaa;
+    span{
+        display: inline-block;
+        float: left;
+        width: 90px;
+        line-height: 70px;
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 32px;
+    }
+    .contactCont{
+        margin: 10px 25px;
+        float: left;
+        width: 260px;
+        vertical-align: top;
+        a{
+            display: inline-block;
+            margin: 0 6px;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background: #538dbe url('/static/img/icon_contact_sprite.png') 12px 6px no-repeat;
+        }
+        .oicq{
+            background-position: 12px -34px;
+        }
+        .email{
+            background-position: 12px -74px;
+        }
+        .kefu{
+            background-position: 12px -114px;
+        }
+    }
+    .quickInquiryBtn{
+        float: left;
+        display: inline-block;
+        width: 248px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        background: @mainColor;
+        vertical-align: top;
+        .iconQuickInquiry{
+            display: inline-block;
+            margin-right: 10px;
+            width: 20px;
+            height: 23px;
+            background: url('/static/img/icon_quick inquiry.png');
+            vertical-align: middle;
+        }
+    }
+}
+.blockContainer{
+    margin: 40px auto 20px;
+    height: 435px;
+    .categoryWrapper{
+        float: left;
+        width: 280px;
+        height: 435px;
+        .categoryContainer{
+            display: block;
+            width: 280px;
+        }
+        .categoryList{
+            height: 340px;
+            z-index: 0;
+        }
+        .subCategoryList{
+            width: 860px;
+        }
+    }
+    .newsWrapper{
+        float: left;
+        margin-left: 20px;
+        width: 280px;
+        .newsList{
+            padding: 20px 0;
+            width: 280px;
+            height: 340px;
+            background: #666;
+            li{
+                line-height: 34px;
+                width: 250px;
+                height: 34px;
+                padding: 0 15px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                list-style: initial;
+                list-style-position: inside;
+                color: #fff;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .hotProductWrapper{
+        float: left;
+        margin-left: 20px;
+        width: 600px;
+        height: 435px;
+    }
+}
+/*hotProductViews start*/
+.hotProductViews
+{
+    li:last-child
+    {
+        border: 0;
+    }
+    .hotProductInfo
+    {
+        position: relative;
+
+        display: inline-block;
+
+        width: 147px;
+        height: 135px;
+        padding: 0 4px 0 0;
+        p
+        {
+            line-height: 20px;
+
+            margin-top: 5px;
+
+            color: #aaa;
+        }
+        // .hotProductCategory
+        // {
+        //     color: @mainColor;
+        // }
+    }
+    .imgWrapp
+    {
+        display: inline-block;
+
+        width: 140px;
+        height: 140px;
+
+        vertical-align: top;
+        img
+        {
+            max-width: 100%;
+            max-height: 100%;
+            border: 1px solid @borderColor;
+        }
+    }
+    .viewMore
+    {
+        // position: absolute;
+        // bottom: 10px;
+        // left: 10px;
+        // &:hover
+        // {
+        //     text-decoration: underline;
+        // }
+        display: inline-block;
+        margin-top: 5px;
+        font-weight: bold;
+        color: @mainColor;
+        border-bottom: 3px solid @mainColor;
+        line-height: 28px;
+    }
+    li
+    {
+        font-size: 12px;
+        // display: inline-block;
+
+        float: left;
+
+        box-sizing: border-box;
+        width: 292px;
+
+        border-bottom: 1px solid @borderColor;
+    }
+}
+
+/*hotProductViews end*/
+/*Products start*/
+#tabHeadPanel .panel
+{
+    display: none;
+}
+.products
+{
+    margin: 20px auto 40px;
+}
+.productsChoose
+{
+    height: 44px;
+    background: #999;
+    // border-bottom: 1px solid @borderColor;
+    text-align: center;
+}
+.productsChoose li
+{
+    // border-bottom: 2px solid @borderColor;
+    // float: left;
+    font-size: 16px;
+    line-height: 44px;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 184px;
+    height: 44px;
+    margin-right: 2px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #BDBDBD;
+}
+.productsChoose .endItem
+{
+    width: 186px;
+    margin-right: 0;
+}
+.productsChoose .tabSelect
+{
+    font-weight: bold;
+    color: #fff;
+    // border-bottom: 2px solid @mainColor;
+    background: url(/static/img/sele_ico.png) no-repeat 50% 36px;
+}
+.productItem
+{
+    line-height: 24px;
+
+    display: inline-block;
+
+    width: 194px;
+    margin: 20px 55px 10px 0;
+
+    border: 1px solid #fff;
+    p
+    {
+        padding: 0 10px;
+    }
+    .title
+    {
+        line-height: 18px;
+
+        overflow: hidden;
+
+        height: 36px;
+
+        color: @subFontColor;
+    }
+    // .title a{
+    //     color:#204e8a;
+    // }
+    .price
+    {
+        font-size: 16px;
+
+        color: @emphasesColor;
+    }
+    img
+    {
+        width: 192px;
+        height: 192px;
+
+        border: 1px solid @borderColor;
+    }
+    &:hover
+    {
+        border: 1px solid @borderColor;
+        box-shadow: 0 0 4px #aaa;
+        img
+        {
+            border-color: #fff;
+        }
+    }
+}
+.productItem.noMargin
+{
+    margin-right: 0;
+}
+/*Products end*/
+/*specialProduct start*/
+.specialProduct
+{
+    overflow: hidden;
+    margin: 0 auto;
+    a:hover
+    {
+        text-decoration: underline;
+
+        color: @mainColor;
+    }
+    .specialProductContainer
+    {
+        overflow: hidden;
+
+        margin-bottom: 20px;
+    }
+    .specialProductContainer1,
+    .specialProductContainer2
+    {
+        display: inline-block;
+
+        width: 590px;
+        // height: 320px;
+
+        background: #fff;
+        border-right: 1px solid @borderColor;
+    }
+    .specialProductContainer2
+    {
+        margin-left: 14px;
+    }
+    .tabProduct
+    {
+        line-height: 24px;
+
+        float: left;
+        overflow: hidden;
+
+        width: 220px;
+    }
+    .tabProduct a
+    {
+        display: inline-block;
+
+        margin-right: 5px;
+    }
+    .tabProduct img
+    {
+        width: 218px;
+        height: 220px;
+
+        border: 1px solid @borderColor;
+    }
+    .name
+    {
+        display: inline-block;
+
+        color: #333;
+    }
+    .price
+    {
+        font-size: 18px;
+
+        color: @emphasesColor;
+    }
+    .moreItem
+    {
+        line-height: 24px;
+
+        float: left;
+        overflow: hidden;
+
+        width: 325px;
+        height: 310px;
+        margin: 0 0 12px 14px;
+        p
+        {
+            height: 31px;
+        }
+        span,
+        a
+        {
+            font-size: 12px;
+            line-height: 30px;
+
+            display: inline-block;
+            overflow: hidden;
+
+            width: 150px;
+            margin-left: 10px;
+        }
+    }
+}
+/*taspecialProductb end*/
+
+/*brandOverview start*/
+.brandOverview
+{
+    margin: 20px auto;
+    padding: 15px 0 45px;
+    background: #F2F2F2;
+    h2
+    {
+        position: relative;
+        a
+        {
+            position: absolute;
+            top: 12px;
+            right: 0;
+            height: 28px;
+            line-height: 28px;
+            background: @mainColor;
+            color: #fff;
+            border-radius: 4px;
+            padding: 0 8px;
+        }
+    }
+    .brandList
+    {
+        overflow: hidden;
+
+        width: 1194px;
+        margin: auto;
+
+        border-top: 1px solid #F2F2F2;
+        border-right: 1px solid #F2F2F2;
+        background: #fff;
+    }
+    .brandList li
+    {
+        line-height: 22px;
+
+        display: inline-block;
+        overflow: hidden;
+
+        width: 178px;
+        height: 73px;
+        padding: 10px;
+
+        text-align: center;
+        vertical-align: bottom;
+
+        border-bottom: 1px solid @borderColor;
+        border-left: 1px solid @borderColor;
+    }
+    .brandList li:hover
+    {
+        background-color: #f8f8f8;
+    }
+    .brandList li span
+    {
+        font-size: 14px;
+
+        color: #333;
+    }
+    .brandList li img
+    {
+        width: 140px;
+        height: 50px;
+    }
+}
+/*BrandOverview end*/
+/*Buyer Protection Policy begin*/
+.policyViews
+{
+    overflow: hidden;
+    padding: 15px 0;
+    background: #78b4e0;
+    h2
+    {
+        color: #fff;
+    }
+    .policyList
+    {
+        overflow: hidden;
+
+        margin: auto;
+        padding: 0 0 25px;
+        // border: 1px solid @borderColor;
+    }
+    li
+    {
+        float: left;
+
+        width: 180px;
+        margin-right: 24px;
+        &:last-child{
+            margin-right: 0;
+        }
+        img
+        {
+            width: 180px;
+            height: 130px;
+            vertical-align: bottom;
+        }
+        .policyTitle
+        {
+            margin-top: 10px;
+            line-height: 24px;
+            font-size: 16px;
+            font-family: 'Tahoma';
+
+            color: #fff;
+        }
+        .description
+        {
+            font-size: 14px;
+            font-family: 'Tahoma';
+            line-height: 20px;
+
+            margin-top: 8px;
+
+            color: #E4F0F9;
+        }
+    }
+}
+/*Buyer Protection Policy end*/

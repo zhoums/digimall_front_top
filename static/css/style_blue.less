@@ -1,0 +1,132 @@
+@borderColor: #e6e6e6;
+@titleBg: #999;
+@mainFontColor: #333;
+@mainColor: #00AEEF;
+@subFontColor: rgb(153,153,153);
+
+// common
+a{
+    color: @mainColor;
+
+}
+
+.pagelist{
+    a{
+        color: @mainFontColor;
+        font-weight: bold;
+        border: 1px solid @borderColor;
+        border-radius: 0px;
+    }
+    a.active,
+    a:hover
+    {
+        color: @mainColor;
+        border: 1px solid @mainColor;
+        background: #fff;
+        border-radius: 0px;
+    }
+}
+.btnPrimary{
+    border: 1px solid @mainColor;
+    background-color: @mainColor;
+    &:hover
+    {
+        background: @mainColor + #001100;
+    }
+}
+.topic{
+    color: #fff;
+    background: @titleBg;
+}
+.titleBg{
+    background: @titleBg !important;
+}
+// inquiryPopup
+.inquiryPopup{
+    h3{
+        color: @mainColor;
+        i{
+            background: url('/static/img/quick-inquiry-icon.png');
+        }
+    }
+    .title{
+        color: @mainColor;
+        background: #eaf1ff url('/static/img/icon_file.png') no-repeat 8px 6px;
+    }
+}
+
+// product index
+.main-left{
+    .category{
+        dt{
+            background: @mainColor;
+        }
+    }
+}
+.main-right{
+    h1{
+        color: #fff;
+        background: @titleBg;
+    }
+    .catfiltertopitem{
+        span{
+            color: #fff;
+        }
+    }
+    .catfiltersub li a{
+        color: @mainFontColor;
+    }
+}
+
+// product search
+.productList .pl_info .info a{
+    color: @mainColor;
+}
+.listTitle span{
+    color: @mainColor;
+}
+.SearchResults{
+    .typeItem,.filterItem{
+        border: 1px solid @borderColor;
+        background-color: #f9f9f9;
+        b{
+
+            color: @mainColor;
+        }
+    }
+}
+
+// datasheet
+.itemhead{
+    background-color: @mainColor;
+}
+.down{
+    a{
+        color: @mainColor;
+    }
+}
+
+
+// category
+#productTable thead{
+    color: @subFontColor;
+    background-color: #fff;
+    border-bottom: 2px solid #9c9c9c;
+}
+
+// about us
+.sidebar{
+    dl dt{
+        background-color: @mainColor;
+    }
+}
+
+// brand
+.keyTitle{
+    background: @mainColor;
+}
+
+// // product detail
+// .proOther h3{
+//     background: @mainColor;
+// }
