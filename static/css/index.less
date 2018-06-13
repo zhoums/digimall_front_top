@@ -335,22 +335,28 @@ h2
     cursor: pointer;
     text-align: center;
     color: @grayFont;
+    position: relative;
+    i{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 48%;
+        bottom:-14px;
+        background: url('/static/img/icon_arrow_blue.png') center -10px no-repeat;
+        display: none;
+    }
     &.tabSelect{
-        background: @blueMain;
         color:#fff;
+        background-color: @blueMain;
+        i{
+            display: block;
+        }
     }
 }
 .productsChoose .endItem
 {
     width: 186px;
     margin-right: 0;
-}
-.productsChoose .tabSelect
-{
-    font-weight: bold;
-    color: #fff;
-    // border-bottom: 2px solid @mainColor;
-    background: url(/static/img/sele_ico.png) no-repeat 50% 36px;
 }
 .productItem
 {

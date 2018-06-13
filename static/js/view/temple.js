@@ -128,7 +128,7 @@ define('main/temple', ['jquery','main/utils','main/base64'], function($, utils, 
                 className = ' class="tabSelect"';
                 style = ' style="display:block"'
             }
-            tabHeadHtml += '<li'+className+'>'+v.categoryName+'</li>';
+            tabHeadHtml += '<li'+className+'>'+v.categoryName+'<i></i></li>';
             tabPanelHtml += '<div class="panel"'+style+'>';
             $.each(v.products, function(i, product){
                 tabPanelHtml += '<a class="productItem '+((i+1)%5?'':'noMargin')+'" href="/product/detail.html?id='+product.productId+'&part='+product.productName+'">' +
