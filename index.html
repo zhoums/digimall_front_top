@@ -13,73 +13,82 @@
 <body>
     <div id="site-nav">
         <div class="top">
-            <div class="topLeft">
-                <div class="categoryWrapper">
-                    <a class="proCate" href="javascript:;"><i class="categoryIcon"></i>Categories</a>
-                    <div class="categoryContainer">
-                        <ul class="categoryList"></ul>
+            <div class="baseWide">
+                <div class="topLeft">
+                    <div class="categoryWrapper">
+                        <a class="proCate" href="javascript:;"><i class="categoryIcon"></i>Categories</a>
+                        <div class="categoryContainer">
+                            <ul class="categoryList"></ul>
+                        </div>
                     </div>
+                    <div class="topCart">
+                        <i></i>Cart
+                        <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
+                            <span>0</span>
+                        </a>
+                        <div class="cart">
+                            <ul class="item" id="ShoppingCart">
+                                <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to
+                                    find sth</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="topMenu" style="display: none">
+                        <div class="item">
+                            <a href="javascript:void(0)" class="Link"><i class="searchIcon"></i><span
+                                    class="searchType">Products</span></a>
+                            <ul style="display: none;">
+                                <li><a href="javascript:void(0)" class="sele tabSearch" v="Products">Products</a></li>
+                                <li><a href="javascript:void(0)" class="tabSearch" v="DataSheet">Datasheet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="text" style="display: none" id="searchInput" name="part" class="searchInput"
+                           placeholder="Search..."></input>
                 </div>
-                <div class="topCart">
-                    <i></i>Cart
-                    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
-                        <span>0</span>
-                    </a>
-                    <div class="cart">
-                        <ul class="item" id="ShoppingCart">
-                            <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="topMenu" style="display: none">
-                    <div class="item">
-                        <a href="javascript:void(0)" class="Link"><i class="searchIcon"></i><span class="searchType">Products</span></a>
-                        <ul style="display: none;">
-                            <li><a href="javascript:void(0)" class="sele tabSearch" v="Products">Products</a></li>
-                            <li><a href="javascript:void(0)" class="tabSearch" v="DataSheet">Datasheet</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <input type="text" style="display: none" id="searchInput" name="part" class="searchInput" placeholder="Search..."></input>
-            </div>
-            <!--<div class="topMiddle">
-                <a href="/index.html"><img src="/static/img/logo.png"/></a>
-            </div>-->
-            <div class="topRight">
-                <div class="topMenu">
-                    <div class="item">
-                        <a href="javascript:void(0)" link="/member/index.html" class="Link needLogin">My Account</a>
-                        <ul style="display: none;">
-                            <li><a href="javascript:void(0)" link="/account/index.html" class="needLogin">Account Information</a></li>
-                            <li><a href="javascript:void(0)" link="/account/address.html" class="needLogin">Shipping Address</a></li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <a href="javascript:void(0)" link="/order/index.html" class="Link needLogin">My Orders</a>
-                        <ul style="display: none;">
-                            <li><a href="javascript:void(0)" link="/order/index.html" class="needLogin">My Orders</a></li>
-                            <li><a href="javascript:void(0)" link="/quote/index.html" class="needLogin">My Inquiry</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="topLogin">
-                    <a href="/member/login.html" target="_blank" id="aLogin">Sign in</a> /
-                    <a href="/member/register.html" target="_blank">Register</a>
-                </div>
-                <!--<div class="topCart">
-                    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
-                        Cart
-                        <span>0</span>
-                    </a>
-                    <i></i>
-                    <div class="cart">
-                        <ul class="item" id="ShoppingCart">
-                            <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
-                        </ul>
-                    </div>
+                <!--<div class="topMiddle">
+                    <a href="/index.html"><img src="/static/img/logo.png"/></a>
                 </div>-->
+                <div class="topRight">
+                    <div class="topMenu">
+                        <div class="item">
+                            <a href="javascript:void(0)" link="/member/index.html" class="Link needLogin">My Account</a>
+                            <ul style="display: none;">
+                                <li><a href="javascript:void(0)" link="/account/index.html" class="needLogin">Account
+                                    Information</a></li>
+                                <li><a href="javascript:void(0)" link="/account/address.html" class="needLogin">Shipping
+                                    Address</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)" link="/order/index.html" class="Link needLogin">My Orders</a>
+                            <ul style="display: none;">
+                                <li><a href="javascript:void(0)" link="/order/index.html" class="needLogin">My
+                                    Orders</a></li>
+                                <li><a href="javascript:void(0)" link="/quote/index.html" class="needLogin">My
+                                    Inquiry</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="topLogin">
+                        <a href="/member/login.html" target="_blank" id="aLogin">Sign in</a> /
+                        <a href="/member/register.html" target="_blank">Register</a>
+                    </div>
+                    <!--<div class="topCart">
+                        <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
+                            Cart
+                            <span>0</span>
+                        </a>
+                        <i></i>
+                        <div class="cart">
+                            <ul class="item" id="ShoppingCart">
+                                <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="Clear"></div>
             </div>
-            <div class="Clear"></div>
         </div>
         <div id="header">
             <div class="logoWrap"><img src="./static/img/logo.png"></div>
@@ -116,7 +125,7 @@
                 </div>
                 <a href="javascript:;" class="quickInquiryBtn quickInquiry"><i class="iconQuickInquiry"></i>Quick Inquiry</a>
             </div>
-            <div class="pageWidth blockContainer">
+            <div class="blockContainer">
                 <!--<div class="categoryWrapper">
                     <h2> - Categories - </h2>
                     <div class="categoryContainer">
@@ -124,14 +133,16 @@
                     </div>
                 </div>-->
 
-                <div class="hotProductWrapper">
+                <div class="hotProductWrapper pageWidth">
                     <h2>  Product Today  </h2>
                     <ul class="hotProductViews"></ul>
+                    <div class="Clear"></div>
                 </div>
+                <div class="Clear"></div>
             </div>
             <div class="products pageWidth">
                 <div class="recommand_products_outer">
-                    <h2>  RECOMMAND PRODUCTS  </h2>
+                    <!--<h2>  RECOMMAND PRODUCTS  </h2>-->
                     <ul id="tabHead" class="productsChoose"></ul>
                 </div>
                 <div id="tabHeadPanel"></div>

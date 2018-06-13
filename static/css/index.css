@@ -1,11 +1,11 @@
 h2 {
-  margin: auto;
-  font-size: 18px;
-  font-weight: normal;
+  margin: 15px auto;
+  font-size: 24px;
+  font-weight: 500;
   line-height: 44px;
   height: 44px;
-  padding: 5px 0;
-  color: #aaa;
+  color: #00aeef;
+  text-align: center;
 }
 #main {
   position: relative;
@@ -145,7 +145,8 @@ h2 {
 }
 .blockContainer {
   margin: 40px auto 20px;
-  height: 435px;
+  height: 540px;
+  background-color: #f2f2f2;
 }
 .blockContainer .categoryWrapper {
   float: left;
@@ -190,45 +191,47 @@ h2 {
   color: #fff;
 }
 .blockContainer .hotProductWrapper {
-  float: left;
-  margin-left: 20px;
-  width: 600px;
+  margin: 0 auto;
+  padding-top: 1px;
   height: 435px;
 }
-/*hotProductViews start*/
-.hotProductViews li:last-child {
-  border: 0;
+.blockContainer .hotProductWrapper li {
+  font-size: 12px;
+  float: left;
+  box-sizing: border-box;
+  width: 290px;
+  border: 1px solid #e6e6e6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  overflow: hidden;
 }
+/*hotProductViews start*/
 .hotProductViews .hotProductInfo {
   position: relative;
-  display: inline-block;
-  width: 147px;
-  height: 135px;
-  padding: 0 4px 0 0;
-}
-.hotProductViews .hotProductInfo p {
-  line-height: 20px;
-  margin-top: 5px;
-  color: #aaa;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e6e6e6;
+  height: 60px;
+  padding: 10px;
 }
 .hotProductViews .imgWrapp {
-  display: inline-block;
-  width: 140px;
-  height: 140px;
   vertical-align: top;
 }
 .hotProductViews .imgWrapp img {
-  max-width: 100%;
-  max-height: 100%;
-  border: 1px solid #e6e6e6;
+  width: 288px;
+  height: 288px;
 }
 .hotProductViews .viewMore {
-  display: inline-block;
-  margin-top: 5px;
-  font-weight: bold;
-  color: #00aeef;
-  border-bottom: 3px solid #00aeef;
+  display: block;
+  background-color: #008fd5;
+  font-weight: 700;
+  padding: 8px 0;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
   line-height: 28px;
+  margin: -1px;
 }
 .hotProductViews li {
   font-size: 12px;
@@ -236,6 +239,15 @@ h2 {
   box-sizing: border-box;
   width: 292px;
   border-bottom: 1px solid #e6e6e6;
+}
+.hotProductCategory {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 35px;
+  height: 35px;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
 }
 /*hotProductViews end*/
 /*Products start*/
@@ -246,21 +258,21 @@ h2 {
   margin: 20px auto 40px;
 }
 .productsChoose {
-  height: 44px;
-  background: #999;
   text-align: center;
 }
 .productsChoose li {
   font-size: 16px;
-  line-height: 44px;
   display: inline-block;
-  overflow: hidden;
-  width: 184px;
-  height: 44px;
-  margin-right: 2px;
+  margin: 5px 15px;
+  background: #f2f2f2;
+  padding: 10px 20px;
   cursor: pointer;
   text-align: center;
-  color: #BDBDBD;
+  color: #999999;
+}
+.productsChoose li.tabSelect {
+  background: #2476ea;
+  color: #fff;
 }
 .productsChoose .endItem {
   width: 186px;
