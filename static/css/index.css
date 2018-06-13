@@ -164,32 +164,6 @@ h2 {
 .blockContainer .categoryWrapper .subCategoryList {
   width: 860px;
 }
-.blockContainer .newsWrapper {
-  float: left;
-  margin-left: 20px;
-  width: 280px;
-}
-.blockContainer .newsWrapper .newsList {
-  padding: 20px 0;
-  width: 280px;
-  height: 340px;
-  background: #666;
-}
-.blockContainer .newsWrapper .newsList li {
-  line-height: 34px;
-  width: 250px;
-  height: 34px;
-  padding: 0 15px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  list-style: initial;
-  list-style-position: inside;
-  color: #fff;
-}
-.blockContainer .newsWrapper .newsList li a {
-  color: #fff;
-}
 .blockContainer .hotProductWrapper {
   margin: 0 auto;
   padding-top: 1px;
@@ -242,7 +216,7 @@ h2 {
 }
 .hotProductCategory {
   background-color: #f2f2f2;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #d9d9d9;
   line-height: 35px;
   height: 35px;
   text-align: center;
@@ -297,6 +271,12 @@ h2 {
   width: 194px;
   margin: 20px 55px 10px 0;
   border: 1px solid #fff;
+  /* .price
+    {
+        font-size: 16px;
+
+        color: @emphasesColor;
+    }*/
 }
 .productItem p {
   padding: 0 10px;
@@ -306,10 +286,6 @@ h2 {
   overflow: hidden;
   height: 36px;
   color: #555555;
-}
-.productItem .price {
-  font-size: 16px;
-  color: #d73c38;
 }
 .productItem img {
   width: 192px;
@@ -328,9 +304,24 @@ h2 {
 }
 /*Products end*/
 /*specialProduct start*/
+#sp-img {
+  width: 220px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+#sp-img img {
+  width: 100%;
+}
 .specialProduct {
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0;
+}
+.specialProduct h2 {
+  text-align: center;
+  color: #999;
+  font-weight: 500;
+  border-bottom: 1px solid #d9d9d9;
 }
 .specialProduct a:hover {
   text-decoration: underline;
@@ -342,10 +333,23 @@ h2 {
 }
 .specialProduct .specialProductContainer1,
 .specialProduct .specialProductContainer2 {
-  display: inline-block;
-  width: 590px;
+  display: flex;
+  width: 640px;
   background: #fff;
   border-right: 1px solid #e6e6e6;
+}
+.specialProduct .specialProductContainer1 .sp-p,
+.specialProduct .specialProductContainer2 .sp-p {
+  width: 430px;
+  padding: 5px 0;
+}
+.specialProduct .specialProductContainer1 .sp-p p,
+.specialProduct .specialProductContainer2 .sp-p p {
+  display: flex;
+}
+.specialProduct .specialProductContainer1 .sp-p p span,
+.specialProduct .specialProductContainer2 .sp-p p span {
+  margin: 0 0 0 50px;
 }
 .specialProduct .specialProductContainer2 {
   margin-left: 14px;
@@ -367,10 +371,11 @@ h2 {
 }
 .specialProduct .name {
   display: inline-block;
+  font-size: 14px;
   color: #333;
 }
 .specialProduct .price {
-  font-size: 18px;
+  font-size: 14px;
   color: #d73c38;
 }
 .specialProduct .moreItem {
@@ -394,6 +399,34 @@ h2 {
   margin-left: 10px;
 }
 /*taspecialProductb end*/
+.newsWrapper {
+  margin-left: 20px;
+  width: 535px;
+  padding: 1px;
+}
+.newsWrapper h2 {
+  text-align: center;
+  color: #999;
+  font-weight: 500;
+  border-bottom: 1px solid #d9d9d9;
+}
+.newsWrapper .newsList {
+  padding: 20px 0;
+  margin-bottom: 10px;
+  background: #666;
+  min-height: 200px;
+}
+.newsWrapper .newsList li {
+  line-height: 1.5em;
+  margin-left: 42px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  list-style-image: url(/static/img/news-style-img.png);
+  color: #fff;
+}
+.newsWrapper .newsList li a {
+  color: #fff;
+}
 /*brandOverview start*/
 .brandOverview {
   margin: 20px auto;
@@ -424,18 +457,25 @@ h2 {
 }
 .brandOverview .brandList li {
   line-height: 22px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
-  width: 178px;
-  height: 73px;
-  padding: 10px;
   text-align: center;
   vertical-align: bottom;
-  border-bottom: 1px solid #e6e6e6;
-  border-left: 1px solid #e6e6e6;
+  box-sizing: border-box;
 }
-.brandOverview .brandList li:hover {
-  background-color: #f8f8f8;
+.brandOverview .brandList li a {
+  display: flex;
+  width: 199px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  vertical-align: top;
+  height: 135px;
+  overflow: hidden;
+}
+.brandOverview .brandList li a:hover {
+  background: #f2f6ff;
 }
 .brandOverview .brandList li span {
   font-size: 14px;
@@ -444,6 +484,31 @@ h2 {
 .brandOverview .brandList li img {
   width: 140px;
   height: 50px;
+}
+.brandSlide {
+  position: relative;
+}
+.brandSlide .prev {
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  width: 32px;
+  height: 40px;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  left: -15px;
+  background: url(/static/img/arrow-left-blue-bold.png) no-repeat;
+}
+.brandSlide .next {
+  display: inline-block;
+  position: absolute;
+  right: -15px;
+  top: 45%;
+  width: 32px;
+  height: 40px;
+  background: url(/static/img/arrow-right-blue-bold.png) no-repeat;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 /*BrandOverview end*/
 /*Buyer Protection Policy begin*/

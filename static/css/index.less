@@ -6,6 +6,7 @@
 @grayBgColor: #f2f2f2;
 @grayFont: #999;
 @blueMain: #2476ea;
+@splidline: #d9d9d9;
 h2
 {
     margin: 15px auto;
@@ -207,32 +208,6 @@ h2
             width: 860px;
         }
     }
-    .newsWrapper{
-        float: left;
-        margin-left: 20px;
-        width: 280px;
-        .newsList{
-            padding: 20px 0;
-            width: 280px;
-            height: 340px;
-            background: #666;
-            li{
-                line-height: 34px;
-                width: 250px;
-                height: 34px;
-                padding: 0 15px;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                list-style: initial;
-                list-style-position: inside;
-                color: #fff;
-                a{
-                    color: #fff;
-                }
-            }
-        }
-    }
     .hotProductWrapper{
         margin: 0 auto;
         padding-top: 1px;
@@ -298,7 +273,7 @@ h2
 }
 .hotProductCategory{
     background-color: #f2f2f2;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid @splidline;
     line-height: 35px;
     height: 35px;
     text-align: center;
@@ -385,12 +360,12 @@ h2
     // .title a{
     //     color:#204e8a;
     // }
-    .price
+   /* .price
     {
         font-size: 16px;
 
         color: @emphasesColor;
-    }
+    }*/
     img
     {
         width: 192px;
@@ -414,10 +389,25 @@ h2
 }
 /*Products end*/
 /*specialProduct start*/
+#sp-img{
+    width:220px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+}
 .specialProduct
 {
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
+    h2{
+        text-align: center;
+        color: #999;
+        font-weight: 500;
+        border-bottom: 1px solid @splidline;
+    }
     a:hover
     {
         text-decoration: underline;
@@ -433,13 +423,23 @@ h2
     .specialProductContainer1,
     .specialProductContainer2
     {
-        display: inline-block;
+        display: flex;
 
-        width: 590px;
+        width: 640px;
         // height: 320px;
 
         background: #fff;
         border-right: 1px solid @borderColor;
+        .sp-p{
+            width: 430px;
+            padding: 5px 0;
+            p{
+                display: flex;
+                span{
+                    margin: 0 0 0 50px;
+                }
+            }
+        }
     }
     .specialProductContainer2
     {
@@ -470,13 +470,12 @@ h2
     .name
     {
         display: inline-block;
-
+        font-size: 14px;
         color: #333;
     }
     .price
     {
-        font-size: 18px;
-
+        font-size: 14px;
         color: @emphasesColor;
     }
     .moreItem
@@ -489,8 +488,7 @@ h2
         width: 325px;
         height: 310px;
         margin: 0 0 12px 14px;
-        p
-        {
+        p{
             height: 31px;
         }
         span,
@@ -508,6 +506,35 @@ h2
     }
 }
 /*taspecialProductb end*/
+
+.newsWrapper{
+    margin-left: 20px;
+    width: 535px;
+    padding:1px;
+    h2{
+        text-align: center;
+        color: #999;
+        font-weight: 500;
+        border-bottom: 1px solid @splidline;
+    }
+    .newsList{
+        padding: 20px 0;
+        margin-bottom: 10px;
+        background: #666;
+        min-height: 200px;
+        li{
+            line-height: 1.5em;
+            margin-left: 42px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            list-style-image: url(/static/img/news-style-img.png);
+            color: #fff;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
 
 /*brandOverview start*/
 .brandOverview
@@ -545,34 +572,61 @@ h2
     .brandList li
     {
         line-height: 22px;
-
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
         overflow: hidden;
-
-        width: 178px;
-        height: 73px;
-        padding: 10px;
-
         text-align: center;
         vertical-align: bottom;
-
-        border-bottom: 1px solid @borderColor;
-        border-left: 1px solid @borderColor;
-    }
-    .brandList li:hover
-    {
-        background-color: #f8f8f8;
+        box-sizing: border-box;
+        a{
+            display: flex;
+            width: 199px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px 0px;
+            vertical-align: top;
+            height: 135px;
+            overflow: hidden;
+            &:hover{
+                //box-shadow: 0 0 10px rgba(60,60,60,.5) inset;
+                background: #f2f6ff;
+            }
+        }
     }
     .brandList li span
     {
         font-size: 14px;
-
         color: #333;
     }
     .brandList li img
     {
         width: 140px;
         height: 50px;
+    }
+}
+.brandSlide{
+    position: relative;
+    .prev {
+        display: inline-block;
+        position: absolute;
+        top: 45%;
+        width: 32px;
+        height: 40px;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        left: -15px;
+        background: url(/static/img/arrow-left-blue-bold.png) no-repeat;
+    }
+    .next {
+        display: inline-block;
+        position: absolute;
+        right: -15px;
+        top: 45%;
+        width: 32px;
+        height: 40px;
+        background: url(/static/img/arrow-right-blue-bold.png) no-repeat;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
     }
 }
 /*BrandOverview end*/

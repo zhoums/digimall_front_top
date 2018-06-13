@@ -170,24 +170,25 @@ define('main/temple', ['jquery','main/utils','main/base64'], function($, utils, 
     }
     //首页specialProduct
     exports.specialProductView = function(data){
-        var html = '<div class="moreItem">';
+        var html = '';
+        var content_img = "",content_p="<div class='sp-p'>";
         $.each(data, function(k, v){
-            html += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
-            /*if(k === 0){
-                /!*html += '<div class="tabProduct">' +
+            /*html += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';*/
+            if(k === 0){
+                content_img += '<div id="sp-img">' +
                             '<img src="'+ (v.logo || '/static/img/default_pic_blue.png') + '">' +
-                            '<p>' +
+                            /*'<p>' +
                                 '<a href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a>' +
                                 v.description+
                             '</p>' +
-                            '<p class="price">$ '+v.price+'</p>' +
-                        '</div>' +
-                        '<div class="moreItem">';*!/
+                            '<p class="price">$ '+v.price+'</p>' +*/
+                        '</div>'
             }else{
-                html += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
-            }*/
+                content_p += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
+            }
         });
-        html += '</div>'
+        content_p += '</div>';
+        html += content_img + content_p;
         return html;
     };
     //购物车页面新建地址

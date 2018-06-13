@@ -147,6 +147,9 @@ body {
 .Clear {
   clear: both;
 }
+.flex {
+  display: flex;
+}
 /**/
 #site-nav {
   margin: 0 0 20px;
@@ -279,9 +282,10 @@ body {
 .top .topLogin a {
   margin: 0 2px;
   color: #000;
-}
-.top .topLogin a:hover {
-  color: #fff;
+  /*&:hover
+            {
+                color: #fff;
+            }*/
 }
 .top .topCart {
   font-size: 14px;
