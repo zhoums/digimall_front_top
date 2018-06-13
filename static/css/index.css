@@ -515,10 +515,10 @@ h2 {
 .policyViews {
   overflow: hidden;
   padding: 15px 0;
-  background: #78b4e0;
 }
 .policyViews h2 {
-  color: #fff;
+  color: #999999;
+  margin: 15px auto;
 }
 .policyViews .policyList {
   overflow: hidden;
@@ -534,8 +534,6 @@ h2 {
   margin-right: 0;
 }
 .policyViews li img {
-  width: 180px;
-  height: 130px;
   vertical-align: bottom;
 }
 .policyViews li .policyTitle {
