@@ -343,7 +343,7 @@ h2
     margin: 20px 55px 10px 0;
 
     border: 1px solid #fff;
-    p
+    p,h3
     {
         padding: 0 10px;
     }
@@ -391,7 +391,7 @@ h2
 /*specialProduct start*/
 #sp-img{
     width:220px;
-    margin-right: 10px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     img{
@@ -434,9 +434,26 @@ h2
             width: 430px;
             padding: 5px 0;
             p{
+                padding-left: 35px;
                 display: flex;
+                line-height: 2em;
+                font-weight: bold;
+                color: @grayFont;
+                a{
+                    display: inline-block;
+                    width: 200px;
+                    text-decoration: none;
+                }
                 span{
-                    margin: 0 0 0 50px;
+                    margin: 0 0 0 20px;
+                    color: @grayFont
+                }
+                &:hover{
+                    background: url('/static/img/arrow-r.png') no-repeat 15px center ;
+                    a{color: @blueMain;}
+                    span{
+                        color: #ff5647;
+                    }
                 }
             }
         }
@@ -634,11 +651,11 @@ h2
 .policyViews
 {
     overflow: hidden;
-    padding: 15px 0;
     h2
     {
         color: @grayFont;
-        margin: 15px auto;
+        margin: 15px auto 30px;
+        border-bottom: 1px solid @borderColor;
     }
     .policyList
     {
@@ -647,11 +664,17 @@ h2
         margin: auto;
         padding: 0 0 25px;
         // border: 1px solid @borderColor;
+        .spliceLine{
+            width: 50%;
+            border-bottom: 1px solid green;
+            margin: 15px auto;
+        }
     }
     li
     {
         float: left;
-
+        display: flex;
+        flex-wrap: wrap;
         width: 180px;
         margin-right: 24px;
         &:last-child{
@@ -660,25 +683,28 @@ h2
         img
         {
             vertical-align: bottom;
+            margin: 0 auto;
         }
         .policyTitle
         {
-            margin-top: 10px;
+            margin-top: 15px;
             line-height: 24px;
-            font-size: 16px;
+            font-size: 18px;
+            width: 100%;
+            font-weight: 600;
             font-family: 'Tahoma';
-
-            color: #fff;
+            text-align: center;
+            color: @grayFont;
         }
         .description
         {
             font-size: 14px;
+            width: 100%;
             font-family: 'Tahoma';
-            line-height: 20px;
-
-            margin-top: 8px;
-
-            color: #E4F0F9;
+            line-height: 15px;
+            font-weight: 400;
+            text-align: center;
+            color: @grayFont;
         }
     }
 }

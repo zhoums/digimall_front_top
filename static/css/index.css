@@ -278,7 +278,8 @@ h2 {
         color: @emphasesColor;
     }*/
 }
-.productItem p {
+.productItem p,
+.productItem h3 {
   padding: 0 10px;
 }
 .productItem .title {
@@ -306,7 +307,7 @@ h2 {
 /*specialProduct start*/
 #sp-img {
   width: 220px;
-  margin-right: 10px;
+  margin-right: 20px;
   display: flex;
   align-items: center;
 }
@@ -345,11 +346,34 @@ h2 {
 }
 .specialProduct .specialProductContainer1 .sp-p p,
 .specialProduct .specialProductContainer2 .sp-p p {
+  padding-left: 35px;
   display: flex;
+  line-height: 2em;
+  font-weight: bold;
+  color: #999999;
+}
+.specialProduct .specialProductContainer1 .sp-p p a,
+.specialProduct .specialProductContainer2 .sp-p p a {
+  display: inline-block;
+  width: 200px;
+  text-decoration: none;
 }
 .specialProduct .specialProductContainer1 .sp-p p span,
 .specialProduct .specialProductContainer2 .sp-p p span {
-  margin: 0 0 0 50px;
+  margin: 0 0 0 20px;
+  color: #999999;
+}
+.specialProduct .specialProductContainer1 .sp-p p:hover,
+.specialProduct .specialProductContainer2 .sp-p p:hover {
+  background: url('/static/img/arrow-r.png') no-repeat 15px center;
+}
+.specialProduct .specialProductContainer1 .sp-p p:hover a,
+.specialProduct .specialProductContainer2 .sp-p p:hover a {
+  color: #2476ea;
+}
+.specialProduct .specialProductContainer1 .sp-p p:hover span,
+.specialProduct .specialProductContainer2 .sp-p p:hover span {
+  color: #ff5647;
 }
 .specialProduct .specialProductContainer2 {
   margin-left: 14px;
@@ -514,19 +538,26 @@ h2 {
 /*Buyer Protection Policy begin*/
 .policyViews {
   overflow: hidden;
-  padding: 15px 0;
 }
 .policyViews h2 {
   color: #999999;
-  margin: 15px auto;
+  margin: 15px auto 30px;
+  border-bottom: 1px solid #e6e6e6;
 }
 .policyViews .policyList {
   overflow: hidden;
   margin: auto;
   padding: 0 0 25px;
 }
+.policyViews .policyList .spliceLine {
+  width: 50%;
+  border-bottom: 1px solid green;
+  margin: 15px auto;
+}
 .policyViews li {
   float: left;
+  display: flex;
+  flex-wrap: wrap;
   width: 180px;
   margin-right: 24px;
 }
@@ -535,19 +566,25 @@ h2 {
 }
 .policyViews li img {
   vertical-align: bottom;
+  margin: 0 auto;
 }
 .policyViews li .policyTitle {
-  margin-top: 10px;
+  margin-top: 15px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 18px;
+  width: 100%;
+  font-weight: 600;
   font-family: 'Tahoma';
-  color: #fff;
+  text-align: center;
+  color: #999999;
 }
 .policyViews li .description {
   font-size: 14px;
+  width: 100%;
   font-family: 'Tahoma';
-  line-height: 20px;
-  margin-top: 8px;
-  color: #E4F0F9;
+  line-height: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: #999999;
 }
 /*Buyer Protection Policy end*/

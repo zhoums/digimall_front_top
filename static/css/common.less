@@ -5,7 +5,10 @@
 @emphasesColor: #d73c38;
 @mainFontColor: #333;
 @subFontColor: #b4b4b4;
-
+@grayBgColor: #f2f2f2;
+@grayFont: #999;
+@blueMain: #2476ea;
+@splidline: #d9d9d9;
 *
 {
     font-family: 'Microsoft YaHei',Arial,Verdana,Calibri;
@@ -203,6 +206,11 @@ body
 }
 .flex{
     display: flex;
+}
+.breakText{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 /**/
 #site-nav
@@ -694,14 +702,17 @@ body
 {
     clear: both;
 
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 50px 0;
 
     background: #f2f2f2;
+    .footLogoWarp{
+        width: 380px;
+    }
     .pageWidth
     {
         position: relative;
-
+        display: flex;
         margin: auto;
         .footLogo
         {
@@ -710,17 +721,52 @@ body
             left: 0;
         }
     }
-    .footContent
-    {
-        margin-left: 170px;
-        padding-left: 20px;
-
-        border-left: 1px solid @borderColor;
+    .footContent {
+        width: 345px;
+        dl{
+            margin-bottom: 30px;
+            min-height: 90px;
+            &:last-child{
+                margin: 0;
+            }
+        }
+        dt{
+            font-weight: 600;
+            font-size: 18px;
+            color: @grayFont;
+            line-height: 38px;
+        }
+        dd{
+            line-height: 18px;
+            a{
+                font-size: 14px;
+                color: @grayFont
+            }
+        }
+    }
+    .talk2usContainer{
+        .talk2us{
+            display: flex;
+            a{
+                display: block;
+                width: 63px;
+                height: 50px;
+                background: url('/static/img/talk2us.png') 0 0 no-repeat;
+                margin-right: 5px;
+            }
+            .oicq{
+                background-position: -69px 0;
+            }
+            .email{
+                background-position: -143px 0 ;
+            }
+            .kefu{
+                background-position: -215px 0;
+            }
+        }
     }
     .supportCont
     {
-        padding: 0 0 25px;
-
         color: #4b7ead;
         .support
         {
@@ -805,11 +851,13 @@ body
         font-family: 'Tahoma';
         font-size: 14px;
         line-height: 22px;
-
         margin: 10px auto 0;
         padding: 10px 0;
-
         color: #b4b4b4;
+        text-align: center;
+    }
+    .picContact{
+        text-align: center;
     }
 }
 /*Footer end*/

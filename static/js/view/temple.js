@@ -173,18 +173,12 @@ define('main/temple', ['jquery','main/utils','main/base64'], function($, utils, 
         var html = '';
         var content_img = "",content_p="<div class='sp-p'>";
         $.each(data, function(k, v){
-            /*html += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';*/
             if(k === 0){
                 content_img += '<div id="sp-img">' +
                             '<img src="'+ (v.logo || '/static/img/default_pic_blue.png') + '">' +
-                            /*'<p>' +
-                                '<a href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a>' +
-                                v.description+
-                            '</p>' +
-                            '<p class="price">$ '+v.price+'</p>' +*/
                         '</div>'
             }else{
-                content_p += '<p><a class="name" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
+                content_p += '<p><a class="name breakText" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
             }
         });
         content_p += '</div>';

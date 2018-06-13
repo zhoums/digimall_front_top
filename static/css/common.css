@@ -150,6 +150,11 @@ body {
 .flex {
   display: flex;
 }
+.breakText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 /**/
 #site-nav {
   margin: 0 0 20px;
@@ -505,12 +510,16 @@ body {
 /*Footer start*/
 #footer {
   clear: both;
-  margin-top: 60px;
+  margin-top: 30px;
   padding: 50px 0;
   background: #f2f2f2;
 }
+#footer .footLogoWarp {
+  width: 380px;
+}
 #footer .pageWidth {
   position: relative;
+  display: flex;
   margin: auto;
 }
 #footer .pageWidth .footLogo {
@@ -519,12 +528,48 @@ body {
   left: 0;
 }
 #footer .footContent {
-  margin-left: 170px;
-  padding-left: 20px;
-  border-left: 1px solid #e6e6e6;
+  width: 345px;
+}
+#footer .footContent dl {
+  margin-bottom: 30px;
+  min-height: 90px;
+}
+#footer .footContent dl:last-child {
+  margin: 0;
+}
+#footer .footContent dt {
+  font-weight: 600;
+  font-size: 18px;
+  color: #999999;
+  line-height: 38px;
+}
+#footer .footContent dd {
+  line-height: 18px;
+}
+#footer .footContent dd a {
+  font-size: 14px;
+  color: #999999;
+}
+#footer .talk2usContainer .talk2us {
+  display: flex;
+}
+#footer .talk2usContainer .talk2us a {
+  display: block;
+  width: 63px;
+  height: 50px;
+  background: url('/static/img/talk2us.png') 0 0 no-repeat;
+  margin-right: 5px;
+}
+#footer .talk2usContainer .talk2us .oicq {
+  background-position: -69px 0;
+}
+#footer .talk2usContainer .talk2us .email {
+  background-position: -143px 0;
+}
+#footer .talk2usContainer .talk2us .kefu {
+  background-position: -215px 0;
 }
 #footer .supportCont {
-  padding: 0 0 25px;
   color: #4b7ead;
 }
 #footer .supportCont .support {
@@ -589,6 +634,10 @@ body {
   margin: 10px auto 0;
   padding: 10px 0;
   color: #b4b4b4;
+  text-align: center;
+}
+#footer .picContact {
+  text-align: center;
 }
 /*Footer end*/
 /*member sidebar begin*/
