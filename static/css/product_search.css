@@ -41,7 +41,7 @@
   display: inline-block;
   width: 100px;
   vertical-align: top;
-  color: #00aeef;
+  color: #2476ea;
 }
 .SearchResults .typeItem .itemContainer,
 .SearchResults .filterItem .itemContainer {
@@ -144,7 +144,7 @@
   margin: 20px 0;
   padding-top: 5px;
   border: 1px solid #eee;
-  border-top: 2px solid #00aeef;
+  border-top: 2px solid #2476ea;
   background-color: #f9f9f9;
 }
 .productList .pl_info {
@@ -164,7 +164,7 @@
   line-height: 24px;
 }
 .productList .pl_info .info a {
-  color: #00aeef;
+  color: #2476ea;
 }
 .productList .pl_info .info strong a {
   font-size: 20px;
@@ -194,7 +194,7 @@
   width: 80px;
   margin-left: 10px;
   text-decoration: underline;
-  color: #00aeef;
+  color: #2476ea;
 }
 .downloadDatasheet {
   display: inline-block;
@@ -303,7 +303,7 @@
 }
 .listTitle span {
   font-weight: bold;
-  color: #00aeef;
+  color: #2476ea;
 }
 .colorItem {
   background-color: #fff;

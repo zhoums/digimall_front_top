@@ -58,7 +58,7 @@ input {
   outline: none;
 }
 a {
-  color: #00aeef;
+  color: #2476ea;
 }
 body {
   min-width: 1200px;
@@ -95,11 +95,11 @@ body {
   border-radius: 4px;
 }
 .btnPrimary {
-  border: 1px solid #00aeef;
-  background-color: #00aeef;
+  border: 1px solid #2476ea;
+  background-color: #2476ea;
 }
 .btnPrimary:hover {
-  background: #00bfef;
+  background: #2487ea;
 }
 .btn {
   color: #333333;
@@ -137,7 +137,6 @@ body {
   width: 1200px;
 }
 .container {
-  overflow: hidden;
   margin: 0 auto;
 }
 #main {
@@ -233,11 +232,14 @@ body {
 }
 .top .topMiddle {
   position: absolute;
-  top: 14px;
-  left: 50%;
-  width: 97px;
-  height: 53px;
+  left: 45%;
+  display: flex;
+  align-items: center;
+  height: 40px;
   margin-left: -48px;
+}
+.top .topMiddle img {
+  height: 35px;
 }
 .top .topRight {
   float: right;
@@ -254,7 +256,7 @@ body {
 .top .topMenu .item a {
   display: block;
   padding: 5px 10px;
-  color: #fff;
+  color: #333;
 }
 .top .topMenu .item a.Link {
   display: block;
@@ -271,9 +273,8 @@ body {
   min-width: 90px;
   margin-left: 0;
   padding: 8px 0;
-  border: 1px solid #538dbe;
   border-top-width: 0;
-  background-color: #538dbe;
+  background-color: #e6e6e6;
 }
 .top .topMenu .item ul li a:hover {
   text-decoration: underline;
@@ -335,13 +336,13 @@ body {
   right: 0;
   width: 240px;
   min-width: 90px;
-  background-color: #538dbe;
+  background-color: #e6e6e6;
 }
 .cart .item li a {
   line-height: 18px;
   display: inline-block;
   overflow: hidden;
-  color: #fff;
+  color: #333;
 }
 .cart .item .blockItem {
   height: 62px;
@@ -411,25 +412,25 @@ body {
   left: 0;
   width: 280px;
   padding: 20px 0;
-  background: #538dbe;
+  background: #e6e6e6;
 }
 .categoryWrapper .categoryList li {
   line-height: 34px;
   position: relative;
   height: 34px;
   padding: 0 15px;
-  color: #fff;
-  background: #538dbe;
+  color: #333;
+  background: #e6e6e6;
 }
 .categoryWrapper .categoryList li i {
   position: absolute;
   top: 15px;
   right: 15px;
-  border-color: #bbd2e6;
+  border-color: #333;
 }
 .categoryWrapper .categoryList li:hover,
 .categoryWrapper .categoryList li.categorySelect {
-  background: #87afd2;
+  background: #2476ea;
 }
 .categoryWrapper .categoryList li:hover i,
 .categoryWrapper .categoryList li.categorySelect i {
@@ -466,7 +467,7 @@ body {
 }
 .categoryWrapper .subCategoryList a:hover {
   text-decoration: underline;
-  color: #00aeef;
+  color: #ff6b01;
 }
 #header {
   position: relative;
@@ -482,7 +483,7 @@ body {
   color: #b4b4b4;
 }
 #header .nav .highlight {
-  color: #00aeef;
+  color: #2476ea;
 }
 #header .siteMap {
   line-height: 28px;
@@ -504,7 +505,7 @@ body {
 }
 #header .siteMap a:hover {
   text-decoration: underline;
-  color: #00aeef;
+  color: #2476ea;
 }
 /*Header end*/
 /*Footer start*/
@@ -637,6 +638,7 @@ body {
   text-align: center;
 }
 #footer .picContact {
+  margin-top: 20px;
   text-align: center;
 }
 /*Footer end*/
@@ -667,7 +669,7 @@ body {
 }
 .menuItem li a.select {
   color: #fff;
-  background-color: #00aeef;
+  background-color: #2476ea;
 }
 /*member sidebar end*/
 /*member main right begin*/
@@ -803,7 +805,7 @@ body {
 }
 .table thead {
   color: #fff;
-  background-color: #00aeef;
+  background-color: #2476ea;
 }
 .table th,
 .table td {
@@ -832,7 +834,7 @@ body {
   height: 70px;
   margin: 10px 0 20px;
   text-align: center;
-  color: #00aeef;
+  color: #2476ea;
 }
 .inquiryPopup h3 i {
   display: inline-block;
@@ -900,7 +902,7 @@ body {
   height: 30px;
   margin-left: 140px;
   padding: 0 15px 0 30px;
-  color: #00aeef;
+  color: #2476ea;
   background: #eaf1ff url('/static/img/icon_file.png') no-repeat 8px 6px;
 }
 .inquiryPopup #file {

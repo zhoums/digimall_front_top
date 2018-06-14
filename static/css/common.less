@@ -1,4 +1,4 @@
-@mainColor: #00AEEF;
+@mainColor: #2476ea;
 @borderColor: #e6e6e6;
 @pageWidth: 1200px;
 @sidebarWidth: 180px;
@@ -191,7 +191,7 @@ body
 }
 .container
 {
-    overflow: hidden;
+    //overflow: hidden;
 
     margin: 0 auto;
 }
@@ -316,12 +316,14 @@ body
     .topMiddle
     {
         position: absolute;
-        top: 14px;
-        left: 50%;
-
-        width: 97px;
-        height: 53px;
+        left: 45%;
+        display: flex;
+        align-items: center;
+        height: 40px;
         margin-left: -48px;
+        img{
+            height: 35px;
+        }
     }
     .topRight
     {
@@ -343,7 +345,7 @@ body
 
             padding: 5px 10px;
 
-            color: #fff;
+            color: #333;
         }
         .item a.Link
         {
@@ -367,9 +369,9 @@ body
             margin-left: 0;
             padding: 8px 0;
 
-            border: 1px solid #538dbe;
+            //border: 1px solid #538dbe;
             border-top-width: 0;
-            background-color: #538dbe;
+            background-color: @borderColor;
         }
         .item ul li a:hover
         {
@@ -445,9 +447,8 @@ body
 
         width: 240px;
         min-width: 90px;
-        // border:2px solid #FF0000;
 
-        background-color: #538dbe;
+        background-color: @borderColor;
         li a
         {
             line-height: 18px;
@@ -455,7 +456,7 @@ body
             display: inline-block;
             overflow: hidden;
 
-            color: #fff;
+            color: #333;
         }
         .blockItem
         {
@@ -560,7 +561,7 @@ body
         width: 280px;
         padding: 20px 0;
 
-        background: #538dbe;
+        background: @borderColor;
         li
         {
             line-height: 34px;
@@ -570,20 +571,20 @@ body
             height: 34px;
             padding: 0 15px;
 
-            color: #fff;
-            background: #538dbe;
+            color: #333;
+            background: @borderColor;
             i
             {
                 position: absolute;
                 top: 15px;
                 right: 15px;
 
-                border-color: #bbd2e6;
+                border-color: #333;
             }
             &:hover,
             &.categorySelect
             {
-                background: #87afd2;
+                background: @blueMain;
                 i
                 {
                     right: 16px;
@@ -633,8 +634,7 @@ body
             &:hover
             {
                 text-decoration: underline;
-
-                color: @mainColor;
+                color: #ff6b01;
             }
         }
     }
@@ -857,6 +857,7 @@ body
         text-align: center;
     }
     .picContact{
+        margin-top: 20px;
         text-align: center;
     }
 }

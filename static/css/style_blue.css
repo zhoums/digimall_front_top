@@ -1,5 +1,5 @@
 a {
-  color: #00aeef;
+  color: #2476ea;
 }
 .pagelist a {
   color: #333333;
@@ -9,17 +9,17 @@ a {
 }
 .pagelist a.active,
 .pagelist a:hover {
-  color: #00aeef;
-  border: 1px solid #00aeef;
+  color: #2476ea;
+  border: 1px solid #2476ea;
   background: #fff;
   border-radius: 0px;
 }
 .btnPrimary {
-  border: 1px solid #00aeef;
-  background-color: #00aeef;
+  border: 1px solid #2476ea;
+  background-color: #2476ea;
 }
 .btnPrimary:hover {
-  background: #00bfef;
+  background: #2487ea;
 }
 .topic {
   color: #fff;
@@ -29,17 +29,17 @@ a {
   background: #999999 !important;
 }
 .inquiryPopup h3 {
-  color: #00aeef;
+  color: #2476ea;
 }
 .inquiryPopup h3 i {
   background: url('/static/img/quick-inquiry-icon.png');
 }
 .inquiryPopup .title {
-  color: #00aeef;
+  color: #2476ea;
   background: #eaf1ff url('/static/img/icon_file.png') no-repeat 8px 6px;
 }
 .main-left .category dt {
-  background: #00aeef;
+  background: #2476ea;
 }
 .main-right h1 {
   color: #fff;
@@ -52,10 +52,10 @@ a {
   color: #333333;
 }
 .productList .pl_info .info a {
-  color: #00aeef;
+  color: #2476ea;
 }
 .listTitle span {
-  color: #00aeef;
+  color: #2476ea;
 }
 .SearchResults .typeItem,
 .SearchResults .filterItem {
@@ -64,13 +64,13 @@ a {
 }
 .SearchResults .typeItem b,
 .SearchResults .filterItem b {
-  color: #00aeef;
+  color: #2476ea;
 }
 .itemhead {
-  background-color: #00aeef;
+  background-color: #2476ea;
 }
 .down a {
-  color: #00aeef;
+  color: #2476ea;
 }
 #productTable thead {
   color: #999999;
@@ -78,8 +78,8 @@ a {
   border-bottom: 2px solid #9c9c9c;
 }
 .sidebar dl dt {
-  background-color: #00aeef;
+  background-color: #2476ea;
 }
 .keyTitle {
-  background: #00aeef;
+  background: #2476ea;
 }

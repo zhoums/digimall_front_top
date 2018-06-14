@@ -1,4 +1,4 @@
-@mainColor: #00aeef;
+@mainColor: #2476ea;
 @pageWidth: 1200px;
 @borderColor: #e6e6e6;
 @emphasesColor: #d73c38;
@@ -15,7 +15,7 @@ h2
     line-height: 44px;
     height: 44px;
 
-    color: @mainColor;
+    color: @grayFont;
     text-align: center;
 }
 #main{
@@ -35,8 +35,8 @@ h2
 {
     // overflow: hidden;
 
-    height: 420px;
-
+    margin-bottom: 50px !important;
+    min-height: 300px;
     text-align: center;
 }
 *
@@ -47,7 +47,6 @@ h2
 {
     position: relative;
     // background:#000; 
-
     margin: 0 auto;
     .bd
     {
@@ -217,7 +216,7 @@ h2
             float: left;
             box-sizing: border-box;
             width: 290px;
-            border: 1px solid #e6e6e6;
+            //border: 1px solid #e6e6e6;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             margin-right: 10px;
@@ -234,41 +233,55 @@ h2
         position: relative;
         background-color: #f2f2f2;
         border-top: 1px solid #e6e6e6;
-        height: 60px;
         padding: 10px;
+        text-align: center;
+        h4{
+            color:#000;
+            font-size: 16px;
+        }
+        b{
+            font-size: 14px;
+            color:@grayFont;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .description{
+            color:@grayFont
+        }
     }
     .imgWrapp
     {
         vertical-align: top;
+        border-bottom: 2px solid @blueMain;
+        position: relative;
+        &:hover{
+            span{
+                background-color:#ff6659;
+            }
+        }
+        span{
+            position: absolute;
+            padding: 8px 10px;
+            bottom: 10px;
+            left: 66px;
+            font-size: 16px;
+            color:#fff;
+            background: @blueMain;
+        }
         img
         {
             width: 288px;
             height: 288px;
+            display: block;
         }
-    }
-    .viewMore
-    {
-        display: block;
-        background-color: #008fd5;
-        font-weight: 700;
-        padding: 8px 0;
-        text-align: center;
-        color: #fff;
-        cursor: pointer;
-        line-height: 28px;
-        margin: -1px;
     }
     li
     {
         font-size: 12px;
-        // display: inline-block;
 
         float: left;
-
         box-sizing: border-box;
         width: 292px;
-
-        border-bottom: 1px solid @borderColor;
     }
 }
 .hotProductCategory{
@@ -336,12 +349,9 @@ h2
 .productItem
 {
     line-height: 24px;
-
     display: inline-block;
-
     width: 194px;
     margin: 20px 55px 10px 0;
-
     border: 1px solid #fff;
     p,h3
     {
@@ -350,22 +360,19 @@ h2
     .title
     {
         line-height: 18px;
-
         overflow: hidden;
-
-        height: 36px;
-
+        max-height: 36px;
         color: @subFontColor;
     }
     // .title a{
     //     color:#204e8a;
     // }
-   /* .price
+   .price
     {
         font-size: 16px;
-
-        color: @emphasesColor;
-    }*/
+       font-weight: 600;
+        color: #333;
+    }
     img
     {
         width: 192px;
@@ -488,6 +495,7 @@ h2
     {
         display: inline-block;
         font-size: 14px;
+        font-weight: normal;
         color: #333;
     }
     .price
@@ -667,7 +675,7 @@ h2
         .spliceLine{
             width: 50%;
             border-bottom: 1px solid green;
-            margin: 15px auto;
+            margin: 10px auto;
         }
     }
     li
@@ -810,6 +818,15 @@ h2
             width: 48px;
             height: 48px;
             background: url('/static/img/talk2us1.png') no-repeat;
+            &.oicq{
+                background-position: -62px 0;
+            }
+            &.email{
+                background-position: -123px 0;
+            }
+            &.kefu{
+                background-position: -184px 0;
+            }
         }
     }
 }

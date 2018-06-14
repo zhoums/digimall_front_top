@@ -104,15 +104,17 @@ define('main/temple', ['jquery','main/utils','main/base64'], function($, utils, 
         var html = '';
         $.each(data, function(k, v){
             html += '<li><a href="' + v.url + '">' +
-                '<h4 class="hotProductCategory">' + v.categoryName + '</h4>' +
+                // '<h4 class="hotProductCategory">' + v.categoryName + '</h4>' +
                 '<div class="imgWrapp">' +
+                    '<span>PRODUCTTODAY</span>'+
                     '<img src="' + v.logo + '">' +
                 '</div>' +
                 '<div class="hotProductInfo">' +
                 '<h4>'+ v.category +'</h4>'+
+                '<b>#'+ v.categoryName +'</b>'+
                 '<p class="description">' + v.description + '</p>' +
                 '</div></a>' +
-                '<a href="' + v.url + '" class="viewMore">STOCK:'+v.stock+'</a>' +
+                // '<a href="' + v.url + '" class="viewMore">STOCK:'+v.stock+'</a>' +
                 '</li>';
         });
         return html;
@@ -178,7 +180,7 @@ define('main/temple', ['jquery','main/utils','main/base64'], function($, utils, 
                             '<img src="'+ (v.logo || '/static/img/default_pic_blue.png') + '">' +
                         '</div>'
             }else{
-                content_p += '<p><a class="name breakText" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><span class="price">$ '+v.price+'</span></p>';
+                content_p += '<p><a class="name breakText" href="/product/detail.html?id='+v.productId+'&part='+v.productName+'">'+v.productName+'</a><a href="/product/detail.html?id='+v.productId+'&part='+v.productName+'"><span class="price">$ '+v.price+'</span></a></p>';
             }
         });
         content_p += '</div>';

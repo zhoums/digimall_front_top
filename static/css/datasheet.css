@@ -5,7 +5,7 @@
   font-weight: bold;
   line-height: 42px;
   color: #fff;
-  background-color: #00aeef;
+  background-color: #2476ea;
 }
 .itemhead span {
   font-size: 14px;
@@ -40,7 +40,7 @@
 }
 .down a {
   text-decoration: underline;
-  color: #00aeef;
+  color: #2476ea;
 }
 .desc {
   width: 470px;

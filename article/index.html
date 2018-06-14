@@ -20,7 +20,20 @@
                         <ul class="categoryList"></ul>
                     </div>
                 </div>
-                <div class="topMenu">
+                <div class="topCart">
+                    <i></i>Cart
+                    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
+                        <span>0</span>
+                    </a>
+                    <div class="cart">
+                        <ul class="item" id="ShoppingCart">
+                            <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to
+                                find sth</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- hide s-->
+                <div class="topMenu" style="display: none">
                     <div class="item">
                         <a href="javascript:void(0)" class="Link"><i class="searchIcon"></i><span class="searchType">Products</span></a>
                         <ul style="display: none;">
@@ -29,7 +42,8 @@
                         </ul>
                     </div>
                 </div>
-                <input type="text" id="searchInput" name="part" class="searchInput" placeholder="Search..."></input>
+                <input type="text"  style="display: none" id="searchInput" name="part" class="searchInput" placeholder="Search..."></input>
+                <!-- hide end-->
             </div>
             <div class="topMiddle">
                 <a href="/index.html"><img src="/static/img/logo.png"/></a>
@@ -54,18 +68,6 @@
                 <div class="topLogin">
                     <a href="/member/login.html" target="_blank" id="aLogin">Sign in</a> /
                     <a href="/member/register.html" target="_blank">Register</a>
-                </div>
-                <div class="topCart">
-                    <a href="javascript:void(0)" link="/home/cart.html" class="shop_cart needLogin">
-                        Cart
-                        <span>0</span>
-                    </a>
-                    <i></i>
-                    <div class="cart">
-                        <ul class="item" id="ShoppingCart">
-                            <li class="emptyCart"><a href="/product/index.html">Shopping Cart empty Oh! Just try to find sth</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="Clear"></div>

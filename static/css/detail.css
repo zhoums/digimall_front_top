@@ -66,7 +66,7 @@ h2 {
   margin-right: 0;
 }
 .productPic .small .imgChoose img {
-  border: 2px solid #00aeef;
+  border: 2px solid #2476ea;
 }
 .productInfo {
   float: left;
@@ -83,7 +83,7 @@ h2 {
   padding-left: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #e6e6e6;
-  color: #00aeef;
+  color: #2476ea;
   font-size: 18px;
 }
 .infoList dt h3 {
@@ -96,7 +96,7 @@ h2 {
 }
 .infoList dd a {
   text-decoration: underline;
-  color: #00aeef;
+  color: #2476ea;
 }
 .infoList label {
   display: inline-block;
@@ -220,7 +220,7 @@ h2 {
   background: #ff5647 url('/static/img/btn_add_to_cart.png') center no-repeat;
 }
 .addLink .purchaseBtn {
-  background: #00aeef url('/static/img/btn_purchase.png') center no-repeat;
+  background: #2476ea url('/static/img/btn_purchase.png') center no-repeat;
 }
 .addLink .inquiry {
   margin-right: 0;
@@ -262,7 +262,7 @@ h1 {
   padding-left: 10px;
   width: 45px;
   font-weight: bold;
-  color: #00aeef;
+  color: #2476ea;
 }
 .proOther .batchPrice .title {
   height: 40px;
@@ -326,7 +326,7 @@ h1 {
 .historyContainer h3 b {
   margin: 0 8px;
   font-size: 20px;
-  color: #00aeef;
+  color: #2476ea;
 }
 .historyContainer ul {
   padding: 0 10px;
@@ -408,7 +408,7 @@ h1 {
   width: 30px;
   height: 27px;
   border: 1px solid #e6e6e6;
-  color: #00aeef;
+  color: #2476ea;
   background: #fff;
   text-align: center;
 }
@@ -418,7 +418,7 @@ h1 {
   margin-top: 10px;
   margin-right: 4px;
   border-width: 2px;
-  border-color: #00aeef;
+  border-color: #2476ea;
   vertical-align: middle;
   width: 8px;
   height: 8px;

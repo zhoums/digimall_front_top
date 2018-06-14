@@ -108,12 +108,15 @@ define('main/index', ['jquery','main/utils','main/server','main/temple','main/co
             if(data.data.skype){
                 $("#skype").attr('href','skype:'+ data.data.skype +'?call');
                 $("#footer_skype").attr('href','skype:'+ data.data.skype +'?call');
+                $("#skype_footer").attr('href','skype:'+ data.data.skype +'?call');
             }
             if(data.data.icq){
                 $("#oicq").attr('href','http://wwp.icq.com/scripts/contact.dll?msgto='+ data.data.icq);
+                $("#oicq_footer").attr('href','http://wwp.icq.com/scripts/contact.dll?msgto='+ data.data.icq);
             }
             if(data.data.email){
                 $("#email").attr('href','mailto:'+ data.data.email)
+                $("#email_footer").attr('href','mailto:'+ data.data.email)
             }
             if(data.data.facebook){
                 $("#facebook").attr('href',"https://www.facebook.com/sharer/sharer.php?u="+data.data.facebook)

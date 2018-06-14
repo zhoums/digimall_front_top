@@ -352,14 +352,14 @@ define('main/common', ['jquery','main/utils','main/server','main/temple','jqui']
             var ul = this.getElementsByTagName("ul")[0];
             if(ul){
                 ul.style.display = "block";
-                this.style.backgroundColor = "#004972";
+                this.style.backgroundColor = "#e5e5e5";
                 this.onmouseout = function () {
                     ul.style.display = "none";
                     this.style.backgroundColor = '';
                 }  
             }
         }).on('mouseover','.proCate',function(){
-            $('.proCate').css('backgroundColor','#004972');
+            $('.proCate').css('backgroundColor','#e5e5e5');
             $body.find('.top .categoryContainer').show();
             // $body.find('.proCate i').removeClass('down').addClass('up');
             showCategoryList(0);
@@ -371,7 +371,7 @@ define('main/common', ['jquery','main/utils','main/server','main/temple','jqui']
             $('.proCate').css('backgroundColor','');
             // $body.find('.proCate i').removeClass('up').addClass('down');
         }).on('mouseover','.topCart',function(){
-            this.style.backgroundColor = "#004972";
+            this.style.backgroundColor = "#e5e5e5";
             $body.find('.cart').show();
         }).on('mouseleave','.topCart',function(){
             $body.find('.topCart').css('backgroundColor', '');
