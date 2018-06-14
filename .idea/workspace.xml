@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b435344-8fb8-4300-bff8-44f70dc2552d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.less" afterPath="$PROJECT_DIR$/static/css/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/config.js" afterPath="$PROJECT_DIR$/static/js/config.js" />
-    </list>
+    <list default="true" id="1b435344-8fb8-4300-bff8-44f70dc2552d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/index.less">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/view/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="766" column="21" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="21" />
+            <state relative-caret-position="-448">
+              <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+              <folding>
+                <marker date="1528990197168" expanded="true" signature="7428:7432" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/view/article.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,8 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tabHead</find>
-      <find>RECOMMAND PRODUCTS</find>
       <find>productsChoose</find>
       <find>tabSelect</find>
       <find>brandList</find>
@@ -62,6 +68,8 @@
       <find>Talk To Us</find>
       <find>ICSUGO</find>
       <find>icsugo</find>
+      <find>.btn-search</find>
+      <find>about</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528853309801</updated>
       <workItem from="1528853311034" duration="36743000" />
-      <workItem from="1528992529255" duration="944000" />
+      <workItem from="1528992529255" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37687000" />
+    <option name="totallyTimeSpent" value="37972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="23" width="1739" height="777" extended-state="0" />
@@ -312,7 +320,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2793">
           <caret line="147" column="9" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="147" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1528990197168" expanded="true" signature="7428:7432" ph="&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -363,14 +373,6 @@
           <folding>
             <element signature="e#2398#4387#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/view/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="9" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="147" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,6 +441,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="766" column="21" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/view/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+          <folding>
+            <marker date="1528990197168" expanded="true" signature="7428:7432" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/view/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -84,7 +84,7 @@ require.config({
  window['_c'] = {
     "basePath": "./",
     "path": "/bmall/icsugo/",
-    "websiteName": "TOP",
+    "websiteName": "icsugo",
     // "webuploaderSwf": "./js/vendor/webuploader/Uploader.swf",
     "ENV": "dev"
 }

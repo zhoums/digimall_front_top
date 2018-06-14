@@ -19,6 +19,7 @@ define('main/article', ['jquery','main/utils','main/server','main/common','main/
             });
         }else if(id === 'contact_us'){
             server.contactInfo(function(data){
+                console.log(data)
                 var title = 'Contact Us';
                 var html = '<h2 class="topic">' + title + '</h2><div class="detail"> '+ data.data.content + '</div>'
                 setContent(html);
