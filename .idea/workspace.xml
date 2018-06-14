@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b435344-8fb8-4300-bff8-44f70dc2552d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/address.html" afterPath="$PROJECT_DIR$/account/address.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/index.html" afterPath="$PROJECT_DIR$/account/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/reset_password.html" afterPath="$PROJECT_DIR$/account/reset_password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article/about.html" afterPath="$PROJECT_DIR$/article/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article/index.html" afterPath="$PROJECT_DIR$/article/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand/detail.html" afterPath="$PROJECT_DIR$/brand/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand/index.html" afterPath="$PROJECT_DIR$/brand/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/index.html" afterPath="$PROJECT_DIR$/category/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasheet/index.html" afterPath="$PROJECT_DIR$/datasheet/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/cart.html" afterPath="$PROJECT_DIR$/home/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inquiry/index.html" afterPath="$PROJECT_DIR$/inquiry/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inquiry/success.html" afterPath="$PROJECT_DIR$/inquiry/success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/forget.html" afterPath="$PROJECT_DIR$/member/forget.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/index.html" afterPath="$PROJECT_DIR$/member/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/login.html" afterPath="$PROJECT_DIR$/member/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/register.html" afterPath="$PROJECT_DIR$/member/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/register_agreement.html" afterPath="$PROJECT_DIR$/member/register_agreement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/resend.html" afterPath="$PROJECT_DIR$/member/resend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member/verify.html" afterPath="$PROJECT_DIR$/member/verify.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order/index.html" afterPath="$PROJECT_DIR$/order/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/detail.html" afterPath="$PROJECT_DIR$/product/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/index.html" afterPath="$PROJECT_DIR$/product/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/search.html" afterPath="$PROJECT_DIR$/product/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/index.html" afterPath="$PROJECT_DIR$/quote/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/article.css" afterPath="$PROJECT_DIR$/static/css/article.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/article.less" afterPath="$PROJECT_DIR$/static/css/article.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/brand.css" afterPath="$PROJECT_DIR$/static/css/brand.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/brand.less" afterPath="$PROJECT_DIR$/static/css/brand.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/cart.less" afterPath="$PROJECT_DIR$/static/css/cart.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/category.css" afterPath="$PROJECT_DIR$/static/css/category.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/category.less" afterPath="$PROJECT_DIR$/static/css/category.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.css" afterPath="$PROJECT_DIR$/static/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.less" afterPath="$PROJECT_DIR$/static/css/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/datasheet.css" afterPath="$PROJECT_DIR$/static/css/datasheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/datasheet.less" afterPath="$PROJECT_DIR$/static/css/datasheet.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/detail.css" afterPath="$PROJECT_DIR$/static/css/detail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/detail.less" afterPath="$PROJECT_DIR$/static/css/detail.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.less" afterPath="$PROJECT_DIR$/static/css/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/member_center.css" afterPath="$PROJECT_DIR$/static/css/member_center.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/member_center.less" afterPath="$PROJECT_DIR$/static/css/member_center.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/order.css" afterPath="$PROJECT_DIR$/static/css/order.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/order.less" afterPath="$PROJECT_DIR$/static/css/order.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/product_index.css" afterPath="$PROJECT_DIR$/static/css/product_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/product_index.less" afterPath="$PROJECT_DIR$/static/css/product_index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/product_search.css" afterPath="$PROJECT_DIR$/static/css/product_search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/product_search.less" afterPath="$PROJECT_DIR$/static/css/product_search.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style_blue.css" afterPath="$PROJECT_DIR$/static/css/style_blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style_blue.less" afterPath="$PROJECT_DIR$/static/css/style_blue.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/tpl/footer.html" afterPath="$PROJECT_DIR$/static/js/tpl/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/view/common.js" afterPath="$PROJECT_DIR$/static/js/view/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/view/index.js" afterPath="$PROJECT_DIR$/static/js/view/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/view/temple.js" afterPath="$PROJECT_DIR$/static/js/view/temple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/config.js" afterPath="$PROJECT_DIR$/static/js/config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,86 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="77" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#li#5;n#ul#0;n#div#4;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temple.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/view/temple.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2888">
-              <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/tpl/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="86" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="40" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/common.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3762">
-              <caret line="198" column="1" lean-forward="true" selection-start-line="198" selection-start-column="1" selection-end-line="198" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15295">
-              <caret line="805" column="13" lean-forward="true" selection-start-line="805" selection-start-column="13" selection-end-line="805" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/view/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2109">
-              <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="22" />
-              <folding>
-                <element signature="e#2398#4387#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/view/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2793">
-              <caret line="147" column="9" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="147" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/view/product_search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="766" column="21" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -158,8 +32,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hotProductViews</find>
-      <find>hotProductWrapper</find>
       <find>tabHead</find>
       <find>RECOMMAND PRODUCTS</find>
       <find>productsChoose</find>
@@ -188,6 +60,8 @@
       <find>GLOBAL BRANDS</find>
       <find>inquiry-talk</find>
       <find>Talk To Us</find>
+      <find>ICSUGO</find>
+      <find>icsugo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,6 +77,7 @@
         <option value="$PROJECT_DIR$/static/js/view/index.js" />
         <option value="$PROJECT_DIR$/static/js/view/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/static/js/config.js" />
         <option value="$PROJECT_DIR$/static/css/index.less" />
       </list>
     </option>
@@ -258,6 +133,11 @@
             <path>
               <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
               <item name="digimall_front_top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digimall_front_top" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
@@ -343,12 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528853309801</updated>
       <workItem from="1528853311034" duration="36743000" />
-      <workItem from="1528992529255" duration="19000" />
+      <workItem from="1528992529255" duration="944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36762000" />
+    <option name="totallyTimeSpent" value="37687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="23" width="1739" height="777" extended-state="0" />
@@ -357,6 +237,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16414435" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04105572" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -368,7 +249,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -518,22 +398,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15295">
-          <caret line="805" column="13" lean-forward="true" selection-start-line="805" selection-start-column="13" selection-end-line="805" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="-298">
           <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="77" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#4;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/tpl/icsugo_instruction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="6" column="166" lean-forward="false" selection-start-line="6" selection-start-column="166" selection-end-line="6" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="766" column="21" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

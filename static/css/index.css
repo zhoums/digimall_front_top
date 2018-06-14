@@ -616,11 +616,15 @@ h2 {
   flex-wrap: wrap;
   position: relative;
 }
+.searchWarp .search .title {
+  height: 33px;
+  line-height: 33px;
+  margin: 6px 0 -5px 0;
+}
 .searchWarp .search .title span {
   color: #999999;
   font-size: 18px;
   position: relative;
-  padding: 5px;
   margin-left: 25px;
   font-weight: 600;
   cursor: pointer;
@@ -648,7 +652,7 @@ h2 {
   width: 40px;
   height: 40px;
   right: 0px;
-  bottom: 0px;
+  bottom: 4px;
   background: url('/static/img/btn-search.png') center center no-repeat;
 }
 .searchWarp .inquiry-talk {
@@ -661,6 +665,7 @@ h2 {
 .searchWarp .inquiry-talk .title {
   width: 100%;
   height: 33px;
+  line-height: 33px;
 }
 .searchWarp .inquiry-talk .title span {
   color: #999999;
@@ -692,6 +697,7 @@ h2 {
 .searchWarp .h-talk-us .title {
   width: 100%;
   height: 33px;
+  line-height: 33px;
 }
 .searchWarp .h-talk-us .title span {
   color: #999999;
