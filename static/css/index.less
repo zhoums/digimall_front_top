@@ -709,3 +709,108 @@ h2
     }
 }
 /*Buyer Protection Policy end*/
+
+/*SearchWarp start*/
+.searchWarp{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    .search{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        .title {
+            span{
+                color: @grayFont;
+                font-size: 18px;
+                position: relative;
+                padding: 5px;
+                margin-left: 25px;
+                font-weight: 600;
+                cursor: pointer;
+                display: inline-block;
+                margin-bottom: -2px;
+                z-index: 10;
+                border-bottom: 2px solid #CCC;
+                &.sele{
+                    color:@mainColor;
+                    border-bottom-color: @mainColor;
+                }
+            }
+        }
+        .searchInput{
+            width: 100%;
+            margin-left: 10px;
+            height: 40px;
+            line-height: 40px;
+            box-sizing: border-box;
+            padding: 0 0 0 10px;
+            border: 2px solid #CCC;
+        }
+        .btn-search{
+            position: absolute;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            right: 0px;
+            bottom: 0px;
+            background: url('/static/img/btn-search.png') center center no-repeat;
+        }
+    }
+    .inquiry-talk{
+        font-size: 18px;
+        width: 20%;
+        margin: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        .title {
+            width: 100%;
+            height: 33px;
+            span{
+                color: @grayFont;
+                font-size: 18px;
+                margin-left: 15px;
+                font-weight: 600;
+            }
+        }
+        .inquiry_bg{
+            background: #383431 url('/static/img/talk.png') 20px center no-repeat;
+            width: 100%;
+            height: 42px;
+            cursor: pointer;
+            padding-left: 70px;
+            box-sizing: border-box;
+            span{
+                color: @mainColor;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 40px;
+            }
+        }
+    }
+    .h-talk-us{
+        font-size: 18px;
+        width: 20%;
+        margin: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        .title {
+            width: 100%;
+            height: 33px;
+            span{
+                color: @grayFont;
+                font-size: 18px;
+                margin-left: 15px;
+                font-weight: 600;
+            }
+        }
+        a{
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            background: url('/static/img/talk2us1.png') no-repeat;
+        }
+    }
+}
+/*SearchWarp end*/

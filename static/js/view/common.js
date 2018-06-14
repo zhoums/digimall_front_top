@@ -112,10 +112,11 @@ define('main/common', ['jquery','main/utils','main/server','main/temple','jqui']
     }
 
     function bindKeyEvent() {
+        $("#btn-search").on("click",search);
         try{
             document.getElementById('searchInput').addEventListener('keyup', handlerKeyup, false);
         }catch(e){
-            document.getElementById('searchInput').attachEvent('onkeyup', handlerKeyup, false)
+            document.getElementById('searchInput').attachEvent('onkeyup', handlerKeyup, false);
         }
     }
 
@@ -380,10 +381,9 @@ define('main/common', ['jquery','main/utils','main/server','main/temple','jqui']
             var index;
             if(self.hasClass('tabSearch')){//头部切换搜索
                 index = self.index('.tabSearch');
-                self.addClass('sele').closest('li').siblings('li').find('a').removeClass('sele');
-                $body.find('.searchType').html(self.attr('v'));
+                self.addClass('sele').siblings().removeClass('sele');
+                // $body.find('.searchType').html(self.attr('v'));
             }else if(self.hasClass('headDeleteShopCartBtn')){//头部购物车
-                console.log('lll')
                 var itemObj = self.closest('.blockItem');
                 var id = itemObj.attr('_id');
                 exports.deleteShopCart(id,itemObj);
