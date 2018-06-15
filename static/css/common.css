@@ -842,7 +842,7 @@ body {
   height: 51px;
   margin-right: 10px;
   vertical-align: middle;
-  background: url('/static/img/icon_post_inquiry.png');
+  background: url('/static/img/quick-inquiry-icon.png');
 }
 .inquiryPopup ul {
   margin-top: 10px;
