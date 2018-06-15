@@ -83,8 +83,8 @@ require.config({
 });
  window['_c'] = {
     "basePath": "./",
-    "path": "/bmall/icsugo/",
-    "websiteName": "icsugo",
+    "path": "/bmall/top/",
+    "websiteName": "TOP",
     // "webuploaderSwf": "./js/vendor/webuploader/Uploader.swf",
     "ENV": "dev"
 }

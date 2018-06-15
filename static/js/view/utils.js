@@ -130,6 +130,7 @@ define('main/utils', ['jquery'], function($){
             var loadTemplate = function(index){
                 var name = names[index];
                 if(self.templates[name] === undefined){
+                    console.log(name)
                     $.get('/static/js/tpl/'+name+'.html',function(data){
                         self.templates[name] = data;
                         if(++index < tplLength){
