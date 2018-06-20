@@ -838,8 +838,8 @@ body {
 }
 .inquiryPopup h3 i {
   display: inline-block;
-  width: 43px;
-  height: 51px;
+  width: 20px;
+  height: 24px;
   margin-right: 10px;
   vertical-align: middle;
   background: url('/static/img/quick-inquiry-icon.png');
