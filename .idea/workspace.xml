@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1b435344-8fb8-4300-bff8-44f70dc2552d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_quick inquiry.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/icon_post_inquiry.png" afterPath="$PROJECT_DIR$/static/img/icon_post_inquiry.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/quick-inquiry-icon.png" afterPath="$PROJECT_DIR$/static/img/quick-inquiry-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.css" afterPath="$PROJECT_DIR$/static/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.less" afterPath="$PROJECT_DIR$/static/css/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/tpl/footer.html" afterPath="$PROJECT_DIR$/static/js/tpl/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/tpl/top_about_us.html" afterPath="$PROJECT_DIR$/static/js/tpl/top_about_us.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-55">
@@ -93,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top_about_us.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="top_about_us.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/tpl/top_about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="4" column="386" lean-forward="false" selection-start-line="4" selection-start-column="386" selection-end-line="4" selection-end-column="386" />
               <folding />
             </state>
           </provider>
@@ -153,10 +146,10 @@
       <find>TPL</find>
       <find>setContent</find>
       <find>templates</find>
-      <find>skype</find>
       <find>Along@icsugo.com</find>
       <find>724251238</find>
       <find>http://wwp.icq.com</find>
+      <find>skype</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,6 +169,7 @@
         <option value="$PROJECT_DIR$/static/js/config.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/static/js/tpl/footer.html" />
+        <option value="$PROJECT_DIR$/static/js/tpl/top_about_us.html" />
       </list>
     </option>
   </component>
@@ -232,12 +226,13 @@
             <path>
               <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
               <item name="digimall_front_top" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
               <item name="digimall_front_top" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digimall_front_top" type="b2602c69:ProjectViewProjectNode" />
@@ -296,21 +291,21 @@
       <workItem from="1528853311034" duration="36743000" />
       <workItem from="1528992529255" duration="1229000" />
       <workItem from="1529032143902" duration="599000" />
-      <workItem from="1529504971159" duration="292000" />
+      <workItem from="1529504971159" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42115000" />
+    <option name="totallyTimeSpent" value="42675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="23" width="1739" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16356228" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.088474974" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5483871" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2228739" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,14 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/tpl/top_about_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -684,6 +671,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-55">
           <caret line="106" column="29" lean-forward="false" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/tpl/top_about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="4" column="386" lean-forward="false" selection-start-line="4" selection-start-column="386" selection-end-line="4" selection-end-column="386" />
           <folding />
         </state>
       </provider>
